@@ -1,0 +1,9 @@
+# 14.4_Generalizing_Linear_Discriminant_Analysis
+
+"""
+
+Lecture: 14_Support_Vector_Machines_and_Flexible_Discriminants/14.4_Generalizing_Linear_Discriminant_Analysis
+Content: 14.4_Generalizing_Linear_Discriminant_Analysis
+
+"""
+

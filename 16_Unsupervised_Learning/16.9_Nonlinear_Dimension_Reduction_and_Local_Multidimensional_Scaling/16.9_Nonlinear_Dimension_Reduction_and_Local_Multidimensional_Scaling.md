@@ -1,0 +1,9 @@
+# 16.9_Nonlinear_Dimension_Reduction_and_Local_Multidimensional_Scaling
+
+"""
+
+Lecture: 16_Unsupervised_Learning/16.9_Nonlinear_Dimension_Reduction_and_Local_Multidimensional_Scaling
+Content: 16.9_Nonlinear_Dimension_Reduction_and_Local_Multidimensional_Scaling
+
+"""
+

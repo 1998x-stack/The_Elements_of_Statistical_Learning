@@ -1,0 +1,9 @@
+# 4.3_Two_Simple_Approaches_to_Prediction:_Least_Squares_and_Nearest_Neighbors
+
+"""
+
+Lecture: 4_Overview_of_Supervised_Learning/4.3_Two_Simple_Approaches_to_Prediction:_Least_Squares_and_Nearest_Neighbors
+Content: 4.3_Two_Simple_Approaches_to_Prediction:_Least_Squares_and_Nearest_Neighbors
+
+"""
+
