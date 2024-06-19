@@ -1,9 +1,5 @@
 # 20.2_Diagonal_Linear_Discriminant_Analysis_and_Nearest_Shrunken_Centroids
-
 """
-
 Lecture: 20_High-Dimensional_Problems:_p_greater_than_N/20.2_Diagonal_Linear_Discriminant_Analysis_and_Nearest_Shrunken_Centroids
 Content: 20.2_Diagonal_Linear_Discriminant_Analysis_and_Nearest_Shrunken_Centroids
-
 """
-

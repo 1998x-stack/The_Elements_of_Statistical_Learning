@@ -1,13 +1,13 @@
 structure = {
-    "1_Preface_to_the_Second_Edition": [],
-    "2_Preface_to_the_First_Edition": [],
-    "3_Introduction": {
+    "01_Preface_to_the_Second_Edition": [],
+    "02_Preface_to_the_First_Edition": [],
+    "03_Introduction": {
         "3.1_Examples_of_Learning_Problems": [],
         "3.2_Supervised_and_Unsupervised_Learning": [],
         "3.3_Statistical_Decision_Theory": [],
         "3.4_The_Many_Faces_of_Regularization": []
     },
-    "4_Overview_of_Supervised_Learning": {
+    "04_Overview_of_Supervised_Learning": {
         "4.1_Introduction": [],
         "4.2_Variable_Types_and_Terminology": [],
         "4.3_Two_Simple_Approaches_to_Prediction:_Least_Squares_and_Nearest_Neighbors": [],
@@ -20,7 +20,7 @@ structure = {
         "4.10_Bibliographic_Notes": [],
         "4.11_Exercises": []
     },
-    "5_Linear_Methods_for_Regression": {
+    "05_Linear_Methods_for_Regression": {
         "5.1_Introduction": [],
         "5.2_Linear_Regression_Models_and_Least_Squares": [],
         "5.3_Subset_Selection": [],
@@ -33,7 +33,7 @@ structure = {
         "5.10_Bibliographic_Notes": [],
         "5.11_Exercises": []
     },
-    "6_Linear_Methods_for_Classification": {
+    "06_Linear_Methods_for_Classification": {
         "6.1_Introduction": [],
         "6.2_Linear_Regression_of_an_Indicator_Matrix": [],
         "6.3_Linear_Discriminant_Analysis": [],
@@ -42,7 +42,7 @@ structure = {
         "6.6_Bibliographic_Notes": [],
         "6.7_Exercises": []
     },
-    "7_Basis_Expansions_and_Regularization": {
+    "07_Basis_Expansions_and_Regularization": {
         "7.1_Introduction": [],
         "7.2_Piecewise_Polynomials_and_Splines": [],
         "7.3_Filtering_and_Feature_Extraction": [],
@@ -55,7 +55,7 @@ structure = {
         "7.10_Exercises": [],
         "7.11_Appendix:_Computational_Considerations_for_Splines": []
     },
-    "8_Kernel_Smoothing_Methods": {
+    "08_Kernel_Smoothing_Methods": {
         "8.1_One-Dimensional_Kernel_Smoothers": [],
         "8.2_Selecting_the_Width_of_the_Kernel": [],
         "8.3_Local_Regression_in_Rp": [],
@@ -68,7 +68,7 @@ structure = {
         "8.10_Bibliographic_Notes": [],
         "8.11_Exercises": []
     },
-    "9_Model_Assessment_and_Selection": {
+    "09_Model_Assessment_and_Selection": {
         "9.1_Introduction": [],
         "9.2_Bias,_Variance_and_Model_Complexity": [],
         "9.3_The_Bias–Variance_Decomposition": [],
@@ -211,13 +211,9 @@ structure = {
     "22_Author_Index": [],
     "23_Index": []
 }
-
-
-
 import os
 import json
 from typing import Union, Dict, List, Any
-
 def create_directories_and_files(
     base_path: str, 
     structure: Dict[str, Any], 
@@ -227,35 +223,27 @@ def create_directories_and_files(
 ):
     
     """
-
         根据给定的目录结构创建目录和文件，并生成 README.md 文件。
-
         Args:
             base_path (str): 根目录路径。
             structure (Dict[str, Any]): 目录结构的嵌套字典。
             readme_file (File): 用于写入README内容的文件对象。
             parent_path (str): 父目录路径。
             level (int): 目录的层级，用于确定 README 标题级别。
-
         Returns:
             None
         
     """
-
     heading = "#" * level
-
     for key, value in structure.items():
         current_path = os.path.join(base_path, key.replace(" ", "_").replace("-", "_"))
-
         # 创建目录
         os.makedirs(current_path, exist_ok=True)
-
         # 在README中添加章节标题
         if parent_path:
             readme_file.write(f"{heading} {parent_path}/{key}\n\n")
         else:
             readme_file.write(f"{heading} {key}\n\n")
-
         # 递归调用创建子目录和文件
         if isinstance(value, dict) and value:
             create_directories_and_files(
@@ -273,7 +261,6 @@ def create_directories_and_files(
                 with open(file_path, 'w', encoding='utf-8') as file:
                     file.write(f"# {item}\n\n")
                     file.write(f'"""\n\nLecture: {parent_path}/{key}\nContent: {item}\n\n"""\n\n')
-
                 # 在README中添加文件链接
                 item_clean = item.replace(" ", "_").replace("-", "_")
                 parent_clean = parent_path.replace(" ", "_").replace("-", "_")
@@ -295,28 +282,22 @@ def create_directories_and_files(
             with open(file_path, 'w', encoding='utf-8') as file:
                 file.write(f"# {key}\n\n")
                 file.write(f'"""\n\nLecture: {parent_path}/{key}\nContent: {key}\n\n"""\n\n')
-
             # 在README中添加文件链接
             parent_clean = parent_path.replace(" ", "_").replace("-", "_")
             key_clean = key.replace(" ", "_").replace("-", "_")
             readme_file.write(f"- [{key}](./{parent_clean}/{key_clean}/{item_clean}.md)\n")
             readme_file.write(f"- [{key}](./{parent_clean}/{key_clean}/{item_clean}.py)\n")
-
         # 添加空行以分隔不同的章节
         readme_file.write("\n")
-
 def main():
     root_dir = './'
     # 创建根目录
     os.makedirs(root_dir, exist_ok=True)
-
     # 创建 README.md 文件
     with open(os.path.join(root_dir, "README.md"), 'w', encoding='utf-8') as readme_file:
         readme_file.write("# The ELEMENTS OF STASTISTICAL LEARNING\n\n")
         readme_file.write("这是一个关于The ELEMENTS OF STASTISTICAL LEARNING的目录结构。\n\n")
         create_directories_and_files(root_dir, structure, readme_file)
-
     print("目录和文件结构已生成，并创建 README.md 文件。")
-
 if __name__ == "__main__":
     main()
