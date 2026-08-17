@@ -50,11 +50,14 @@ def _find_chain(structure: dict, target: str) -> list[str]:
 
 
 def section_paths(structure, section: str, _meta: dict, root: pathlib.Path) -> dict[str, pathlib.Path]:
-    chain = _find_chain(structure, section)
+    # On-disk layout is chapter/<section>/<section>.md|.py|.ipynb — the
+    # section key is both a directory and the file stem.
+    chain = _find_chain(structure, section)  # chapter chain, excluding the section
+    sec = sanitize_section(section)
     base = root
     for part in chain:
         base = base / normalize(part)
-    sec = sanitize_section(section)
+    base = base / sec
     return {
         "dir": base,
         "md": base / f"{sec}.md",
@@ -129,8 +132,14 @@ def build_readme(structure: dict, progress: dict) -> str:
         "",
     ]
 
-    def rel_path(parts: list[str], sec: str) -> str:
+    def rel_key(parts: list[str], sec: str) -> str:
+        """progress.yaml key (chapter/section), no trailing section dir."""
         return "/".join([normalize(p) for p in parts] + [normalize(sec)])
+
+    def file_base(parts: list[str], sec: str) -> str:
+        """true on-disk base: chapter/section/section (section is its own dir)."""
+        root = "/".join([normalize(p) for p in parts] + [normalize(sec)])
+        return root + "/" + normalize(sec)
 
     def walk(node: dict, parts: list[str]):
         for key, value in node.items():
@@ -141,14 +150,15 @@ def build_readme(structure: dict, progress: dict) -> str:
                 )
                 walk(value, parts + [key])
             else:
-                rel = rel_path(parts, key)
+                rel = rel_key(parts, key)
                 status = progress.get(rel, "stub")
                 badge = status_badge(status)
+                fb = file_base(parts, key)
                 lines.append(f"- {badge} **{key}**")
-                lines.append(f"  - 摘要: `{rel}.md`")
-                lines.append(f"  - 代码: `{rel}.py`")
+                lines.append(f"  - 摘要: `{fb}.md`")
+                lines.append(f"  - 代码: `{fb}.py`")
                 if status == "notebook":
-                    lines.append(f"  - 笔记: `{rel}.ipynb`")
+                    lines.append(f"  - 笔记: `{fb}.ipynb`")
 
     walk(structure, [])
     return "\n".join(lines)
