@@ -1,14 +1,17 @@
 # 5.8_More_on_the_Lasso_and_Related_Path_Algorithms
-"""
-Lecture: 05_Linear_Methods_for_Regression/5.8_More_on_the_Lasso_and_Related_Path_Algorithms
-Content: 5.8_More_on_the_Lasso_and_Related_Path_Algorithms
-"""
+"""Lasso 路径: 随 alpha 变化系数逐步变为 0。"""
+import warnings
 import numpy as np
-import matplotlib.pyplot as plt
+from sklearn.datasets import make_regression
+from sklearn.linear_model import Lasso
+warnings.filterwarnings("ignore", category=RuntimeWarning)
 
 
 def main() -> None:
-    print("示例占位:5.8_More_on_the_Lasso_and_Related_Path_Algorithms")
+    X, y = make_regression(n_samples=60, n_features=6, noise=0.4, random_state=0)
+    for a in (1e-3, 0.05, 0.2, 0.6):
+        l = Lasso(alpha=a, max_iter=10000).fit(X, y)
+        print(f"alpha={a:.3f} 非零系数={int(np.sum(l.coef_ != 0))}")
 
 
 if __name__ == "__main__":
