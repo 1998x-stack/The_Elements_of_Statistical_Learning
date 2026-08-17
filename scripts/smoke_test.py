@@ -8,11 +8,16 @@ import sys
 
 REPO_ROOT = pathlib.Path(__file__).resolve().parent.parent
 EXCLUDE_DIRS = {".venv", "scripts", "docs", ".git"}
+# Legacy main.py is itself a generator that rewrites the tree on run;
+# never execute it in the smoke test.
+SKIP_FILES = {"main.py"}
 
 
 def iter_py_files(root: pathlib.Path):
     for p in root.rglob("*.py"):
         if any(part in EXCLUDE_DIRS for part in p.parts):
+            continue
+        if p.relative_to(root).name in SKIP_FILES:
             continue
         yield p
 

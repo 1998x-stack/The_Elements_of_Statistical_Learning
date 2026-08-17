@@ -166,10 +166,10 @@ def build_readme(structure: dict, progress: dict) -> str:
 
 def generate_all(structure: dict, root: pathlib.Path = REPO_ROOT) -> dict:
     created = {"md": 0, "py": 0, "ipynb": 0, "skipped": 0}
-    for _parts, section, meta in iter_sections(structure):
+    for parts, section, meta in iter_sections(structure):
+        chapter = "/".join(normalize(p) for p in parts)
         paths = section_paths(structure, section, meta, root)
         paths["dir"].mkdir(parents=True, exist_ok=True)
-        chapter = "/".join(str(p.name) for p in paths["dir"].relative_to(root).parents)
         if write_md_if_missing(str(paths["md"]), section, chapter):
             created["md"] += 1
         else:
