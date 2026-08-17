@@ -1,3 +1,10 @@
+"""
+LEGACY GENERATOR — historically created the directory tree and README.
+The canonical, config-driven build system is now `scripts/generate_docs.py`
+(config driven by `config/structure.yaml` + `config/progress.yaml`).
+
+Run `python scripts/generate_docs.py --regenerate` instead of this module.
+"""
 structure = {
     "01_Preface_to_the_Second_Edition": [],
     "02_Preface_to_the_First_Edition": [],
