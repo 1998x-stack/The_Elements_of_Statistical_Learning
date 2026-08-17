@@ -30,8 +30,11 @@ def main() -> None:
             c2 = hi.copy(); c2[d] = np.quantile(X[mask, d], 0.9); cand.append((y[mask & (X[:, d] <= c2[d])].mean(), (lo.copy(), c2)))
         # 选取添加响应最大的剥边方式
         (_, (lo, hi)) = max(cand, key=lambda t: t[0])
-    print("PRIM 找到高响应盒(×高=%.2f) 覆盖 %d 点" % (best[0], best[2]))
-    print("盒子范围 x1∈[%.2f,%.2f] x2∈[%.2f,%.2f]" % (best[1][0][0], best[1][1][0], best[1][0][1], best[1][1][1]))
+    if best is None:
+        print("未找到满足条件的盒子")
+    else:
+        print("PRIM 高响应盒平均响应=%.2f 覆盖 %d 点" % (best[0], best[2]))
+        print("盒范围 x1∈[%.2f,%.2f] x2∈[%.2f,%.2f]" % (best[1][0][0], best[1][1][0], best[1][0][1], best[1][1][1]))
 
 
 if __name__ == "__main__":
