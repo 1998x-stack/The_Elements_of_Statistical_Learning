@@ -99,8 +99,67 @@ Rewrite `README.md`: professional Chinese index with:
 - Clean tree, `requirements.txt`, consistent imports.
 - Prefer verified, already-run code.
 
-## 10. Delivery Phases (input to implementation plan)
+## 10. Phase-by-Phase Delivery
 
-- **Phase 1 — Scaffolding:** config-driven generator, templates, README index with statuses, requirements, generator self-tests.
-- **Phase 2+ — Content, chapter by chapter:** for each chapter in sequence: Chinese `.md` summaries, runnable `.py`, and deep `.ipynb` for flagged sections. Priority order for content work: foundations → regression → classification → smoothing → resampling → boosting/trees → neural nets → SVM → unsupervised.
-- Continuous verification gate at each phase.
+The work ships in **ordered, gated phases**. Each phase ends with a **review checkpoint**: the user reviews that phase's output before the next phase begins. Every phase shares the same **exit criteria**:
+
+- All `.md` summaries in the phase's chapters authored (Chinese, LaTeX math, links to code).
+- All `.py` files run headless with no exceptions (verified) and figure output correct.
+- Deep `*.ipynb` notebooks for flagged sections execute cell-by-cell in Jupyter.
+- `README.md` status badges updated to reflect the phase (✅ summary / 🔬 notebook).
+
+### Phase 1 — Scaffolding Foundation
+Deliver the build system, no content yet.
+- Config-driven `config/structure.yaml`; `scripts/generate_docs.py` (refactored from `main.py`); `scripts/templates/*`.
+- `requirements.txt`; `figures/` convention; README index rebuilt with the status table (all ⏳ TODO).
+- Exit: generator run is idempotent; self-tests pass; README TOC matches disk.
+
+### Phase 2 — Prefaces & front matter
+Chapters 01, 02 (prefaces) and the reference/index chapters (21–23). Light Chinese intro summaries + `.py` only where meaningful; **no** deep notebooks.
+
+### Phase 3 — Foundations
+Chapters 03 (Introduction), 04 (Overview of Supervised Learning). Deep: 4.5, 4.9.
+
+### Phase 4 — Linear Regression
+Chapter 05. Deep: 5.2, 5.4, 5.5.
+
+### Phase 5 — Linear Classification
+Chapter 06. Deep: 6.3, 6.4.
+
+### Phase 6 — Basis Expansions & Kernel Smoothing
+Chapters 07, 08. Deep: 7.2, 7.4.
+
+### Phase 7 — Model Assessment & Selection
+Chapter 09. Deep: 9.10, 9.11.
+
+### Phase 8 — Model Inference & Averaging
+Chapter 10. Deep: 10.5, 10.7.
+
+### Phase 9 — Additive Models & Trees
+Chapter 11. Deep: 11.2, 11.4 (note: 11.1 GAM folded into chapter-wide coverage).
+
+### Phase 10 — Boosting
+Chapter 12. Deep: 12.1, 12.4, 12.10.
+
+### Phase 11 — Neural Networks
+Chapter 13. Deep: 13.3.
+
+### Phase 12 — Support Vector Machines
+Chapter 14. Deep: 14.2/14.3.
+
+### Phase 13 — Prototype & Nearest Neighbors
+Chapter 15. Deep: 15.3.
+
+### Phase 14 — Unsupervised Learning
+Chapter 16. Deep: 16.3, 16.5.
+
+### Phase 15 — Random Forests & Ensembles
+Chapters 17, 18. Deep: 17.2.
+
+### Phase 16 — Graphical Models & High-Dimensional
+Chapters 19, 20. Deep: none required; keep summaries.
+
+### Final Phase — Polish & Distribution
+Full README finalization, dependency check, full smoke test across all `.py`, final review with the user and publication-ready packaging.
+
+Content priority order overall: foundations → regression → classification → smoothing → resampling → trees/boosting → neural nets → SVM → unsupervised. The system enforces that a phase is not marked done until its exit criteria pass and the user signs off.
