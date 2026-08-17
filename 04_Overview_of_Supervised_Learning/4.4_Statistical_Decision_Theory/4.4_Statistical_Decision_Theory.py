@@ -1,5 +1,6 @@
 # 4.4_Statistical_Decision_Theory
 """监督学习的统计决策理论: 线性判别当作近贝叶斯分类器可视化。"""
+import warnings
 import numpy as np
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.datasets import make_blobs
@@ -8,6 +9,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 plt.rcParams["font.sans-serif"] = ["Arial Unicode MS", "PingFang SC", "SimHei"]
 plt.rcParams["axes.unicode_minus"] = False
+warnings.filterwarnings("ignore", category=RuntimeWarning)
 
 
 def main() -> None:
