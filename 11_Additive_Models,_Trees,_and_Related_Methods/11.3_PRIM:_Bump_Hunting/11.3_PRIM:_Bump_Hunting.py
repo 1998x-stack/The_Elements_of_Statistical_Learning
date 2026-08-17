@@ -16,8 +16,8 @@ def main() -> None:
     lo, hi = np.zeros(2), np.ones(2)
     best = None
     for _ in range(40):
-        mask = np.all((X[:, 0] >= lo[0]) & (X[:, 0] <= hi[0]) &
-                      (X[:, 1] >= lo[1]) & (X[:, 1] <= hi[1]), axis=0)
+        mask = ((X[:, 0] >= lo[0]) & (X[:, 0] <= hi[0]) &
+                (X[:, 1] >= lo[1]) & (X[:, 1] <= hi[1]))
         if mask.sum() < 20:
             break
         mean = y[mask].mean()
