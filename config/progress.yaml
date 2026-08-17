@@ -73,7 +73,7 @@
 10_Model_Inference_and_Averaging/10.11_Exercises: stub
 10_Model_Inference_and_Averaging/10.1_Introduction: done
 10_Model_Inference_and_Averaging/10.2_The_Bootstrap_and_Maximum_Likelihood_Methods: done
-10_Model_Inference_and_Averaging/10.3_Bayesian_Methods: stub
+10_Model_Inference_and_Averaging/10.3_Bayesian_Methods: done
 10_Model_Inference_and_Averaging/10.4_Relationship_Between_the_Bootstrap_and_Bayesian_Inference: stub
 10_Model_Inference_and_Averaging/10.5_The_EM_Algorithm: notebook
 10_Model_Inference_and_Averaging/10.6_MCMC_for_Sampling_from_the_Posterior: stub
