@@ -1,14 +1,16 @@
 # 4.10_Bibliographic_Notes
-"""
-Lecture: 04_Overview_of_Supervised_Learning/4.10_Bibliographic_Notes
-Content: 4.10_Bibliographic_Notes
-"""
-import numpy as np
-import matplotlib.pyplot as plt
+"""第4章文献指引。"""
+REFS = [
+    "Hastie, Tibshirani & Friedman (2009) ESL Ch.4",
+    "Bishop (2006) PRML",
+    "Vapnik (1995)",
+    "Ripley (1996)",
+]
 
 
 def main() -> None:
-    print("示例占位:4.10_Bibliographic_Notes")
+    for r in REFS:
+        print("-", r)
 
 
 if __name__ == "__main__":
