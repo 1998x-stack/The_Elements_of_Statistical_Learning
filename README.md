@@ -200,31 +200,31 @@
   - 代码: `08_Kernel_Smoothing_Methods/8.11_Exercises/8.11_Exercises.py`
 
 ### 09_Model_Assessment_and_Selection
-- ⏳ TODO **9.1_Introduction**
+- ✅ 摘要 **9.1_Introduction**
   - 摘要: `09_Model_Assessment_and_Selection/9.1_Introduction/9.1_Introduction.md`
   - 代码: `09_Model_Assessment_and_Selection/9.1_Introduction/9.1_Introduction.py`
-- ⏳ TODO **9.2_Bias,_Variance_and_Model_Complexity**
+- ✅ 摘要 **9.2_Bias,_Variance_and_Model_Complexity**
   - 摘要: `09_Model_Assessment_and_Selection/9.2_Bias,_Variance_and_Model_Complexity/9.2_Bias,_Variance_and_Model_Complexity.md`
   - 代码: `09_Model_Assessment_and_Selection/9.2_Bias,_Variance_and_Model_Complexity/9.2_Bias,_Variance_and_Model_Complexity.py`
-- ⏳ TODO **9.3_The_Bias–Variance_Decomposition**
+- ✅ 摘要 **9.3_The_Bias–Variance_Decomposition**
   - 摘要: `09_Model_Assessment_and_Selection/9.3_The_Bias–Variance_Decomposition/9.3_The_Bias–Variance_Decomposition.md`
   - 代码: `09_Model_Assessment_and_Selection/9.3_The_Bias–Variance_Decomposition/9.3_The_Bias–Variance_Decomposition.py`
-- ⏳ TODO **9.4_Optimism_of_the_Training_Error_Rate**
+- ✅ 摘要 **9.4_Optimism_of_the_Training_Error_Rate**
   - 摘要: `09_Model_Assessment_and_Selection/9.4_Optimism_of_the_Training_Error_Rate/9.4_Optimism_of_the_Training_Error_Rate.md`
   - 代码: `09_Model_Assessment_and_Selection/9.4_Optimism_of_the_Training_Error_Rate/9.4_Optimism_of_the_Training_Error_Rate.py`
-- ⏳ TODO **9.5_Estimates_of_In-Sample_Prediction_Error**
+- ✅ 摘要 **9.5_Estimates_of_In-Sample_Prediction_Error**
   - 摘要: `09_Model_Assessment_and_Selection/9.5_Estimates_of_In_Sample_Prediction_Error/9.5_Estimates_of_In_Sample_Prediction_Error.md`
   - 代码: `09_Model_Assessment_and_Selection/9.5_Estimates_of_In_Sample_Prediction_Error/9.5_Estimates_of_In_Sample_Prediction_Error.py`
-- ⏳ TODO **9.6_The_Effective_Number_of_Parameters**
+- ✅ 摘要 **9.6_The_Effective_Number_of_Parameters**
   - 摘要: `09_Model_Assessment_and_Selection/9.6_The_Effective_Number_of_Parameters/9.6_The_Effective_Number_of_Parameters.md`
   - 代码: `09_Model_Assessment_and_Selection/9.6_The_Effective_Number_of_Parameters/9.6_The_Effective_Number_of_Parameters.py`
-- ⏳ TODO **9.7_The_Bayesian_Approach_and_BIC**
+- ✅ 摘要 **9.7_The_Bayesian_Approach_and_BIC**
   - 摘要: `09_Model_Assessment_and_Selection/9.7_The_Bayesian_Approach_and_BIC/9.7_The_Bayesian_Approach_and_BIC.md`
   - 代码: `09_Model_Assessment_and_Selection/9.7_The_Bayesian_Approach_and_BIC/9.7_The_Bayesian_Approach_and_BIC.py`
-- ⏳ TODO **9.8_Minimum_Description_Length**
+- ✅ 摘要 **9.8_Minimum_Description_Length**
   - 摘要: `09_Model_Assessment_and_Selection/9.8_Minimum_Description_Length/9.8_Minimum_Description_Length.md`
   - 代码: `09_Model_Assessment_and_Selection/9.8_Minimum_Description_Length/9.8_Minimum_Description_Length.py`
-- ⏳ TODO **9.9_Vapnik–Chervonenkis_Dimension**
+- ✅ 摘要 **9.9_Vapnik–Chervonenkis_Dimension**
   - 摘要: `09_Model_Assessment_and_Selection/9.9_Vapnik–Chervonenkis_Dimension/9.9_Vapnik–Chervonenkis_Dimension.md`
   - 代码: `09_Model_Assessment_and_Selection/9.9_Vapnik–Chervonenkis_Dimension/9.9_Vapnik–Chervonenkis_Dimension.py`
 - 🔬 笔记 **9.10_Cross-Validation**
@@ -235,13 +235,13 @@
   - 摘要: `09_Model_Assessment_and_Selection/9.11_Bootstrap_Methods/9.11_Bootstrap_Methods.md`
   - 代码: `09_Model_Assessment_and_Selection/9.11_Bootstrap_Methods/9.11_Bootstrap_Methods.py`
   - 笔记: `09_Model_Assessment_and_Selection/9.11_Bootstrap_Methods/9.11_Bootstrap_Methods.ipynb`
-- ⏳ TODO **9.12_Conditional_or_Expected_Test_Error?**
+- ✅ 摘要 **9.12_Conditional_or_Expected_Test_Error?**
   - 摘要: `09_Model_Assessment_and_Selection/9.12_Conditional_or_Expected_Test_Error?/9.12_Conditional_or_Expected_Test_Error?.md`
   - 代码: `09_Model_Assessment_and_Selection/9.12_Conditional_or_Expected_Test_Error?/9.12_Conditional_or_Expected_Test_Error?.py`
-- ⏳ TODO **9.13_Bibliographic_Notes**
+- ✅ 摘要 **9.13_Bibliographic_Notes**
   - 摘要: `09_Model_Assessment_and_Selection/9.13_Bibliographic_Notes/9.13_Bibliographic_Notes.md`
   - 代码: `09_Model_Assessment_and_Selection/9.13_Bibliographic_Notes/9.13_Bibliographic_Notes.py`
-- ⏳ TODO **9.14_Exercises**
+- ✅ 摘要 **9.14_Exercises**
   - 摘要: `09_Model_Assessment_and_Selection/9.14_Exercises/9.14_Exercises.md`
   - 代码: `09_Model_Assessment_and_Selection/9.14_Exercises/9.14_Exercises.py`
 
