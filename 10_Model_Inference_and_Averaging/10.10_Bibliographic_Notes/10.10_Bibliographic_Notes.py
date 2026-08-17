@@ -1,14 +1,17 @@
 # 10.10_Bibliographic_Notes
-"""
-Lecture: 10_Model_Inference_and_Averaging/10.10_Bibliographic_Notes
-Content: 10.10_Bibliographic_Notes
-"""
-import numpy as np
-import matplotlib.pyplot as plt
+"""第10章文献指引。"""
+REFS = [
+    "Efron (1979): Bootstrap",
+    "Breiman (1996): Bagging",
+    "Dempster, Laird & Rubin (1977): EM",
+    "Hastings (1970): MCMC",
+    "Wolpert (1992): Stacking",
+]
 
 
 def main() -> None:
-    print("示例占位:10.10_Bibliographic_Notes")
+    for r in REFS:
+        print("-", r)
 
 
 if __name__ == "__main__":
