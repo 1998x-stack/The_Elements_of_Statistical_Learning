@@ -28,7 +28,7 @@ def main() -> None:
     base_err = mean_squared_error(y[Va], base.predict(x[Va, None]))
     print(f"单次拟合验证MSE = {base_err:.4f}")
     print(f"Bumping(20次随机)验证MSE = {best[1]:.4f}")
-    print("Bumping 通过"运气"挑选测试误差最优的扰动。")
+    print('Bumping 通过“运气”挑选测试误差最优的扰动。')
 
 
 if __name__ == "__main__":
