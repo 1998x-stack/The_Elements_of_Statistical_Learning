@@ -103,10 +103,10 @@
   - 代码: `05_Linear_Methods_for_Regression/5.11_Exercises/5.11_Exercises.py`
 
 ### 06_Linear_Methods_for_Classification
-- ⏳ TODO **6.1_Introduction**
+- ✅ 摘要 **6.1_Introduction**
   - 摘要: `06_Linear_Methods_for_Classification/6.1_Introduction/6.1_Introduction.md`
   - 代码: `06_Linear_Methods_for_Classification/6.1_Introduction/6.1_Introduction.py`
-- ⏳ TODO **6.2_Linear_Regression_of_an_Indicator_Matrix**
+- ✅ 摘要 **6.2_Linear_Regression_of_an_Indicator_Matrix**
   - 摘要: `06_Linear_Methods_for_Classification/6.2_Linear_Regression_of_an_Indicator_Matrix/6.2_Linear_Regression_of_an_Indicator_Matrix.md`
   - 代码: `06_Linear_Methods_for_Classification/6.2_Linear_Regression_of_an_Indicator_Matrix/6.2_Linear_Regression_of_an_Indicator_Matrix.py`
 - 🔬 笔记 **6.3_Linear_Discriminant_Analysis**
@@ -117,13 +117,13 @@
   - 摘要: `06_Linear_Methods_for_Classification/6.4_Logistic_Regression/6.4_Logistic_Regression.md`
   - 代码: `06_Linear_Methods_for_Classification/6.4_Logistic_Regression/6.4_Logistic_Regression.py`
   - 笔记: `06_Linear_Methods_for_Classification/6.4_Logistic_Regression/6.4_Logistic_Regression.ipynb`
-- ⏳ TODO **6.5_Separating_Hyperplanes**
+- ✅ 摘要 **6.5_Separating_Hyperplanes**
   - 摘要: `06_Linear_Methods_for_Classification/6.5_Separating_Hyperplanes/6.5_Separating_Hyperplanes.md`
   - 代码: `06_Linear_Methods_for_Classification/6.5_Separating_Hyperplanes/6.5_Separating_Hyperplanes.py`
-- ⏳ TODO **6.6_Bibliographic_Notes**
+- ✅ 摘要 **6.6_Bibliographic_Notes**
   - 摘要: `06_Linear_Methods_for_Classification/6.6_Bibliographic_Notes/6.6_Bibliographic_Notes.md`
   - 代码: `06_Linear_Methods_for_Classification/6.6_Bibliographic_Notes/6.6_Bibliographic_Notes.py`
-- ⏳ TODO **6.7_Exercises**
+- ✅ 摘要 **6.7_Exercises**
   - 摘要: `06_Linear_Methods_for_Classification/6.7_Exercises/6.7_Exercises.md`
   - 代码: `06_Linear_Methods_for_Classification/6.7_Exercises/6.7_Exercises.py`
 
