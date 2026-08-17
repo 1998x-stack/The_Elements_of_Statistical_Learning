@@ -14,9 +14,15 @@ warnings.filterwarnings("ignore", category=RuntimeWarning)
 rng = np.random.default_rng(0)
 
 
-def spline_basis(x, n_knots=6):
-    knots = np.linspace(x.min(), x.max(), n_knots + 2)[1:-1]
-    return BSpline.design_matrix(x, knots, k=3)
+def spline_basis(x, k=3, n_knots=6):
+    x = np.asarray(x, dtype=float).ravel()
+    knots = np.linspace(x.min(), x.max(), n_knots)
+    cols = [np.ones_like(x)]
+    for d in range(1, k + 1):
+        cols.append(x ** d)
+    for kk in knots:
+        cols.append(np.maximum(x - kk, 0) ** k)
+    return np.column_stack(cols)
 
 
 def main() -> None:
