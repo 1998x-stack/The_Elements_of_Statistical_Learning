@@ -29,10 +29,10 @@ def main() -> None:
     x = np.sort(rng.uniform(0, 1, 300))
     p = 1 / (1 + np.exp(-np.sin(4 * x) * 4))
     y = (rng.random(300) < p).astype(int)
-    X = spline_basis(x).toarray()
+    X = spline_basis(x)
     clf = LogisticRegression(max_iter=2000).fit(X, y)
     xx = np.linspace(0, 1, 300)
-    prob = clf.predict_proba(spline_basis(xx).toarray())[:, 1]
+    prob = clf.predict_proba(spline_basis(xx))[:, 1]
     plt.scatter(x, y, s=8, alpha=0.3)
     plt.plot(xx, prob, label="样条逻辑回归后验概率")
     plt.plot(xx, 1 / (1 + np.exp(-np.sin(10 * xx) * 4)), "--", label="真实")
