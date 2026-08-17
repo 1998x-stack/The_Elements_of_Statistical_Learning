@@ -1,14 +1,17 @@
 # 5.1_Introduction
-"""
-Lecture: 05_Linear_Methods_for_Regression/5.1_Introduction
-Content: 5.1_Introduction
-"""
-import numpy as np
-import matplotlib.pyplot as plt
+"""第5章概述: 线性方法回归。"""
+ROADMAP = [
+    ("5.2", "线性回归与最小二乘"),
+    ("5.3-5.4", "子集选择与收缩(岭/Lasso)"),
+    ("5.5", "派生输入方向(PCR/PLS)"),
+    ("5.9", "计算问题"),
+]
 
 
 def main() -> None:
-    print("示例占位:5.1_Introduction")
+    print("第5章: Linear Methods for Regression")
+    for k, t in ROADMAP:
+        print(f"  {k}: {t}")
 
 
 if __name__ == "__main__":
