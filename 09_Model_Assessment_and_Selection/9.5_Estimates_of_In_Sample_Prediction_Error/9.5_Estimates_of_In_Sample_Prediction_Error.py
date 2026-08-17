@@ -16,8 +16,9 @@ def main() -> None:
     lr = LinearRegression().fit(X, y)
     rss = np.sum((y - lr.predict(X)) ** 2)
     p = X.shape[1]
+    err_tr = rss / n
     sigma2 = rss / (n - p - 1)
-    cp = rss + 2 * p * sigma2  # C_p 近似样本内误差
+    cp = err_tr + 2 * p * sigma2 / n  # C_p 以 MSE 尺度
     Xte = rng.normal(size=(1000, 5))
     yte = Xte @ beta + 0.6 * rng.standard_normal(1000)
     test = np.mean((yte - lr.predict(Xte)) ** 2)
