@@ -1,14 +1,17 @@
 # 9.13_Bibliographic_Notes
-"""
-Lecture: 09_Model_Assessment_and_Selection/9.13_Bibliographic_Notes
-Content: 9.13_Bibliographic_Notes
-"""
-import numpy as np
-import matplotlib.pyplot as plt
+"""第9章文献指引。"""
+REFS = [
+    "Akaike (1973): AIC",
+    "Schwarz (1978): BIC",
+    "Efron (1979): Bootstrap",
+    "Stone (1974): 交叉验证",
+    "Vapnik: VC 理论",
+]
 
 
 def main() -> None:
-    print("示例占位:9.13_Bibliographic_Notes")
+    for r in REFS:
+        print("-", r)
 
 
 if __name__ == "__main__":
