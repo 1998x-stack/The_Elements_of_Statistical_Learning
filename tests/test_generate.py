@@ -78,3 +78,13 @@ def test_readme_includes_chapter_and_section():
     assert "1.2_Beta" in text and "🔬 笔记" in text
     assert "`CH/1.2_Beta/1.2_Beta.md`" in text
     assert "`CH/1.2_Beta/1.2_Beta.ipynb`" in text
+
+def test_structure_matches_disk():
+    root = pathlib.Path(".").resolve()
+    struct = load_structure("config/structure.yaml")
+    for _parts, sec, meta in iter_sections(struct):
+        paths = g.section_paths(struct, sec, meta, root)
+        assert paths["md"].exists(), f"missing {paths['md']}"
+        assert paths["py"].exists(), f"missing {paths['py']}"
+        if is_deep(meta):
+            assert paths["ipynb"].exists(), f"missing notebook {paths['ipynb']}"
