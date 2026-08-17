@@ -1,0 +1,368 @@
+01_Preface_to_the_Second_Edition:
+  deep: false
+02_Preface_to_the_First_Edition:
+  deep: false
+03_Introduction:
+  3.1_Examples_of_Learning_Problems:
+    deep: false
+  3.2_Supervised_and_Unsupervised_Learning:
+    deep: false
+  3.3_Statistical_Decision_Theory:
+    deep: false
+  3.4_The_Many_Faces_of_Regularization:
+    deep: false
+04_Overview_of_Supervised_Learning:
+  4.1_Introduction:
+    deep: false
+  4.2_Variable_Types_and_Terminology:
+    deep: false
+  4.3_Two_Simple_Approaches_to_Prediction:_Least_Squares_and_Nearest_Neighbors:
+    deep: false
+  4.4_Statistical_Decision_Theory:
+    deep: false
+  4.5_Local_Methods_in_High_Dimensions:
+    deep: true
+  4.6_Statistical_Models,_Supervised_Learning_and_Function_Approximation:
+    deep: false
+  4.7_Structured_Regression_Models:
+    deep: false
+  4.8_Classes_of_Restricted_Estimators:
+    deep: false
+  4.9_Model_Selection_and_the_Bias–Variance_Tradeoff:
+    deep: true
+  4.10_Bibliographic_Notes:
+    deep: false
+  4.11_Exercises:
+    deep: false
+05_Linear_Methods_for_Regression:
+  5.1_Introduction:
+    deep: false
+  5.2_Linear_Regression_Models_and_Least_Squares:
+    deep: true
+  5.3_Subset_Selection:
+    deep: false
+  5.4_Shrinkage_Methods:
+    deep: true
+  5.5_Methods_Using_Derived_Input_Directions:
+    deep: true
+  5.6_Discussion:_A_Comparison_of_the_Selection_and_Shrinkage_Methods:
+    deep: false
+  5.7_Multiple_Outcome_Shrinkage_and_Selection:
+    deep: false
+  5.8_More_on_the_Lasso_and_Related_Path_Algorithms:
+    deep: false
+  5.9_Computational_Considerations:
+    deep: false
+  5.10_Bibliographic_Notes:
+    deep: false
+  5.11_Exercises:
+    deep: false
+06_Linear_Methods_for_Classification:
+  6.1_Introduction:
+    deep: false
+  6.2_Linear_Regression_of_an_Indicator_Matrix:
+    deep: false
+  6.3_Linear_Discriminant_Analysis:
+    deep: true
+  6.4_Logistic_Regression:
+    deep: true
+  6.5_Separating_Hyperplanes:
+    deep: false
+  6.6_Bibliographic_Notes:
+    deep: false
+  6.7_Exercises:
+    deep: false
+07_Basis_Expansions_and_Regularization:
+  7.1_Introduction:
+    deep: false
+  7.2_Piecewise_Polynomials_and_Splines:
+    deep: true
+  7.3_Filtering_and_Feature_Extraction:
+    deep: false
+  7.4_Smoothing_Splines:
+    deep: true
+  7.5_Nonparametric_Logistic_Regression:
+    deep: false
+  7.6_Multidimensional_Splines:
+    deep: false
+  7.7_Regularization_and_Reproducing_Kernel_Hilbert_Spaces:
+    deep: false
+  7.8_Wavelet_Smoothing:
+    deep: false
+  7.9_Bibliographic_Notes:
+    deep: false
+  7.10_Exercises:
+    deep: false
+  7.11_Appendix:_Computational_Considerations_for_Splines:
+    deep: false
+08_Kernel_Smoothing_Methods:
+  8.1_One-Dimensional_Kernel_Smoothers:
+    deep: false
+  8.2_Selecting_the_Width_of_the_Kernel:
+    deep: false
+  8.3_Local_Regression_in_Rp:
+    deep: false
+  8.4_Structured_Local_Regression_Models_in_Rp:
+    deep: false
+  8.5_Local_Likelihood_and_Other_Models:
+    deep: false
+  8.6_Kernel_Density_Estimation_and_Classification:
+    deep: false
+  8.7_Radial_Basis_Functions_and_Kernels:
+    deep: false
+  8.8_Mixture_Models_for_Density_Estimation_and_Classification:
+    deep: false
+  8.9_Computational_Considerations:
+    deep: false
+  8.10_Bibliographic_Notes:
+    deep: false
+  8.11_Exercises:
+    deep: false
+09_Model_Assessment_and_Selection:
+  9.1_Introduction:
+    deep: false
+  9.2_Bias,_Variance_and_Model_Complexity:
+    deep: false
+  9.3_The_Bias–Variance_Decomposition:
+    deep: false
+  9.4_Optimism_of_the_Training_Error_Rate:
+    deep: false
+  9.5_Estimates_of_In-Sample_Prediction_Error:
+    deep: false
+  9.6_The_Effective_Number_of_Parameters:
+    deep: false
+  9.7_The_Bayesian_Approach_and_BIC:
+    deep: false
+  9.8_Minimum_Description_Length:
+    deep: false
+  9.9_Vapnik–Chervonenkis_Dimension:
+    deep: false
+  9.10_Cross-Validation:
+    deep: true
+  9.11_Bootstrap_Methods:
+    deep: true
+  9.12_Conditional_or_Expected_Test_Error?:
+    deep: false
+  9.13_Bibliographic_Notes:
+    deep: false
+  9.14_Exercises:
+    deep: false
+10_Model_Inference_and_Averaging:
+  10.1_Introduction:
+    deep: false
+  10.2_The_Bootstrap_and_Maximum_Likelihood_Methods:
+    deep: false
+  10.3_Bayesian_Methods:
+    deep: false
+  10.4_Relationship_Between_the_Bootstrap_and_Bayesian_Inference:
+    deep: false
+  10.5_The_EM_Algorithm:
+    deep: true
+  10.6_MCMC_for_Sampling_from_the_Posterior:
+    deep: false
+  10.7_Bagging:
+    deep: true
+  10.8_Model_Averaging_and_Stacking:
+    deep: false
+  10.9_Stochastic_Search:_Bumping:
+    deep: false
+  10.10_Bibliographic_Notes:
+    deep: false
+  10.11_Exercises:
+    deep: false
+11_Additive_Models,_Trees,_and_Related_Methods:
+  11.1_Generalized_Additive_Models:
+    deep: false
+  11.2_Tree-Based_Methods:
+    deep: true
+  11.3_PRIM:_Bump_Hunting:
+    deep: false
+  11.4_MARS:_Multivariate_Adaptive_Regression_Splines:
+    deep: true
+  11.5_Hierarchical_Mixtures_of_Experts:
+    deep: false
+  11.6_Missing_Data:
+    deep: false
+  11.7_Computational_Considerations:
+    deep: false
+  11.8_Bibliographic_Notes:
+    deep: false
+  11.9_Exercises:
+    deep: false
+12_Boosting_and_Additive_Trees:
+  12.1_Boosting_Methods:
+    deep: true
+  12.2_Boosting_Fits_an_Additive_Model:
+    deep: false
+  12.3_Forward_Stagewise_Additive_Modeling:
+    deep: false
+  12.4_Exponential_Loss_and_AdaBoost:
+    deep: true
+  12.5_Why_Exponential_Loss?:
+    deep: false
+  12.6_Loss_Functions_and_Robustness:
+    deep: false
+  12.7_Off-the-Shelf_Procedures_for_Data_Mining:
+    deep: false
+  12.8_Example:_Spam_Data:
+    deep: false
+  12.9_Boosting_Trees:
+    deep: false
+  12.10_Numerical_Optimization_via_Gradient_Boosting:
+    deep: true
+  12.11_Right-Sized_Trees_for_Boosting:
+    deep: false
+  12.12_Regularization:
+    deep: false
+  12.13_Interpretation:
+    deep: false
+  12.14_Illustrations:
+    deep: false
+  12.15_Bibliographic_Notes:
+    deep: false
+  12.16_Exercises:
+    deep: false
+13_Neural_Networks:
+  13.1_Introduction:
+    deep: false
+  13.2_Projection_Pursuit_Regression:
+    deep: false
+  13.3_Neural_Networks:
+    deep: true
+  13.4_Fitting_Neural_Networks:
+    deep: false
+  13.5_Some_Issues_in_Training_Neural_Networks:
+    deep: false
+  13.6_Example:_Simulated_Data:
+    deep: false
+  13.7_Example:_ZIP_Code_Data:
+    deep: false
+  13.8_Discussion:
+    deep: false
+  13.9_Bayesian_Neural_Nets_and_the_NIPS_2003_Challenge:
+    deep: false
+  13.10_Computational_Considerations:
+    deep: false
+  13.11_Bibliographic_Notes:
+    deep: false
+  13.12_Exercises:
+    deep: false
+14_Support_Vector_Machines_and_Flexible_Discriminants:
+  14.1_Introduction:
+    deep: false
+  14.2_The_Support_Vector_Classifier:
+    deep: true
+  14.3_Support_Vector_Machines_and_Kernels:
+    deep: true
+  14.4_Generalizing_Linear_Discriminant_Analysis:
+    deep: false
+  14.5_Flexible_Discriminant_Analysis:
+    deep: false
+  14.6_Penalized_Discriminant_Analysis:
+    deep: false
+  14.7_Mixture_Discriminant_Analysis:
+    deep: false
+  14.8_Bibliographic_Notes:
+    deep: false
+  14.9_Exercises:
+    deep: false
+15_Prototype_Methods_and_Nearest-Neighbors:
+  15.1_Introduction:
+    deep: false
+  15.2_Prototype_Methods:
+    deep: false
+  15.3_k-Nearest-Neighbor_Classifiers:
+    deep: true
+  15.4_Adaptive_Nearest-Neighbor_Methods:
+    deep: false
+  15.5_Computational_Considerations:
+    deep: false
+  15.6_Bibliographic_Notes:
+    deep: false
+  15.7_Exercises:
+    deep: false
+16_Unsupervised_Learning:
+  16.1_Introduction:
+    deep: false
+  16.2_Association_Rules:
+    deep: false
+  16.3_Cluster_Analysis:
+    deep: true
+  16.4_Self-Organizing_Maps:
+    deep: false
+  16.5_Principal_Components,_Curves_and_Surfaces:
+    deep: true
+  16.6_Non-negative_Matrix_Factorization:
+    deep: false
+  16.7_Independent_Component_Analysis_and_Exploratory_Projection_Pursuit:
+    deep: false
+  16.8_Multidimensional_Scaling:
+    deep: false
+  16.9_Nonlinear_Dimension_Reduction_and_Local_Multidimensional_Scaling:
+    deep: false
+  16.10_The_Google_PageRank_Algorithm:
+    deep: false
+  16.11_Bibliographic_Notes:
+    deep: false
+  16.12_Exercises:
+    deep: false
+17_Random_Forests:
+  17.1_Introduction:
+    deep: false
+  17.2_Definition_of_Random_Forests:
+    deep: true
+  17.3_Details_of_Random_Forests:
+    deep: false
+  17.4_Analysis_of_Random_Forests:
+    deep: false
+  17.5_Bibliographic_Notes:
+    deep: false
+  17.6_Exercises:
+    deep: false
+18_Ensemble_Learning:
+  18.1_Introduction:
+    deep: false
+  18.2_Boosting_and_Regularization_Paths:
+    deep: false
+  18.3_Learning_Ensembles:
+    deep: false
+  18.4_Bibliographic_Notes:
+    deep: false
+  18.5_Exercises:
+    deep: false
+19_Undirected_Graphical_Models:
+  19.1_Introduction:
+    deep: false
+  19.2_Markov_Graphs_and_Their_Properties:
+    deep: false
+  19.3_Undirected_Graphical_Models_for_Continuous_Variables:
+    deep: false
+  19.4_Undirected_Graphical_Models_for_Discrete_Variables:
+    deep: false
+  19.5_Exercises:
+    deep: false
+20_High-Dimensional_Problems:_p_greater_than_N:
+  20.1_When_p_is_Much_Bigger_than_N:
+    deep: false
+  20.2_Diagonal_Linear_Discriminant_Analysis_and_Nearest_Shrunken_Centroids:
+    deep: false
+  20.3_Linear_Classifiers_with_Quadratic_Regularization:
+    deep: false
+  20.4_Linear_Classifiers_with_L1_Regularization:
+    deep: false
+  20.5_Classification_When_Features_are_Unavailable:
+    deep: false
+  20.6_High-Dimensional_Regression:_Supervised_Principal_Components:
+    deep: false
+  20.7_Feature_Assessment_and_the_Multiple-Testing_Problem:
+    deep: false
+  20.8_Bibliographic_Notes:
+    deep: false
+  20.9_Exercises:
+    deep: false
+21_References:
+  deep: false
+22_Author_Index:
+  deep: false
+23_Index:
+  deep: false
