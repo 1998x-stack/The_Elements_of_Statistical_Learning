@@ -1,0 +1,15 @@
+# {title}
+"""
+Lecture: {chapter}/{section}
+Content: {section}
+"""
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+def main() -> None:
+    print("示例占位:{section}")
+
+
+if __name__ == "__main__":
+    main()

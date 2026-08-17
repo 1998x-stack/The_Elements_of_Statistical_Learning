@@ -188,7 +188,7 @@ def iter_sections(structure: dict) -> Iterator[tuple[list[str], str, dict]]:
     def walk(node: dict, parts: list[str]):
         for key, value in node.items():
             if isinstance(value, dict) and not _is_leaf(value):
-                walk(value, parts + [key])
+                yield from walk(value, parts + [key])
             else:
                 yield parts, key, value
 
