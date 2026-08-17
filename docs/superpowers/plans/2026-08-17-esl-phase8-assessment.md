@@ -65,7 +65,7 @@ plt.rcParams["axes.unicode_minus"] = False
 `.py`: parametric/ordinary bootstrap to estimate standard error of a statistic (e.g., median or linear coefficient) + "bootstrap resample" demo. `.md`: bootstrap 原理 + bagging前置。 Build nb `build_nb_911.py`. `notebook`; commit.
 
 ### Task 12: 9.12 — Conditional or Expected Test Error? (→ `done`)
-`.py`: compare conditional (fixed training) vs expected test error empirically. `.md`; `.done`: commit.
+`.py`: compare conditional (fixed training) vs expected test error empirically. `.md`: 有条件的 vs 期望测试误差。 `done`; commit.
 
 ### Task 13: 9.13 — Bibliographic Notes (→ `done`)
 `.py` prints refs (Efron—bootstrap; Stone—CV; Akaike; Schwarz; Vapnik). `.md` brief; `done`; commit.
