@@ -65,14 +65,14 @@
   - 代码: `04_Overview_of_Supervised_Learning/4.11_Exercises/4.11_Exercises.py`
 
 ### 05_Linear_Methods_for_Regression
-- ⏳ TODO **5.1_Introduction**
+- ✅ 摘要 **5.1_Introduction**
   - 摘要: `05_Linear_Methods_for_Regression/5.1_Introduction/5.1_Introduction.md`
   - 代码: `05_Linear_Methods_for_Regression/5.1_Introduction/5.1_Introduction.py`
 - 🔬 笔记 **5.2_Linear_Regression_Models_and_Least_Squares**
   - 摘要: `05_Linear_Methods_for_Regression/5.2_Linear_Regression_Models_and_Least_Squares/5.2_Linear_Regression_Models_and_Least_Squares.md`
   - 代码: `05_Linear_Methods_for_Regression/5.2_Linear_Regression_Models_and_Least_Squares/5.2_Linear_Regression_Models_and_Least_Squares.py`
   - 笔记: `05_Linear_Methods_for_Regression/5.2_Linear_Regression_Models_and_Least_Squares/5.2_Linear_Regression_Models_and_Least_Squares.ipynb`
-- ⏳ TODO **5.3_Subset_Selection**
+- ✅ 摘要 **5.3_Subset_Selection**
   - 摘要: `05_Linear_Methods_for_Regression/5.3_Subset_Selection/5.3_Subset_Selection.md`
   - 代码: `05_Linear_Methods_for_Regression/5.3_Subset_Selection/5.3_Subset_Selection.py`
 - 🔬 笔记 **5.4_Shrinkage_Methods**
@@ -83,22 +83,22 @@
   - 摘要: `05_Linear_Methods_for_Regression/5.5_Methods_Using_Derived_Input_Directions/5.5_Methods_Using_Derived_Input_Directions.md`
   - 代码: `05_Linear_Methods_for_Regression/5.5_Methods_Using_Derived_Input_Directions/5.5_Methods_Using_Derived_Input_Directions.py`
   - 笔记: `05_Linear_Methods_for_Regression/5.5_Methods_Using_Derived_Input_Directions/5.5_Methods_Using_Derived_Input_Directions.ipynb`
-- ⏳ TODO **5.6_Discussion:_A_Comparison_of_the_Selection_and_Shrinkage_Methods**
+- ✅ 摘要 **5.6_Discussion:_A_Comparison_of_the_Selection_and_Shrinkage_Methods**
   - 摘要: `05_Linear_Methods_for_Regression/5.6_Discussion:_A_Comparison_of_the_Selection_and_Shrinkage_Methods/5.6_Discussion:_A_Comparison_of_the_Selection_and_Shrinkage_Methods.md`
   - 代码: `05_Linear_Methods_for_Regression/5.6_Discussion:_A_Comparison_of_the_Selection_and_Shrinkage_Methods/5.6_Discussion:_A_Comparison_of_the_Selection_and_Shrinkage_Methods.py`
-- ⏳ TODO **5.7_Multiple_Outcome_Shrinkage_and_Selection**
+- ✅ 摘要 **5.7_Multiple_Outcome_Shrinkage_and_Selection**
   - 摘要: `05_Linear_Methods_for_Regression/5.7_Multiple_Outcome_Shrinkage_and_Selection/5.7_Multiple_Outcome_Shrinkage_and_Selection.md`
   - 代码: `05_Linear_Methods_for_Regression/5.7_Multiple_Outcome_Shrinkage_and_Selection/5.7_Multiple_Outcome_Shrinkage_and_Selection.py`
-- ⏳ TODO **5.8_More_on_the_Lasso_and_Related_Path_Algorithms**
+- ✅ 摘要 **5.8_More_on_the_Lasso_and_Related_Path_Algorithms**
   - 摘要: `05_Linear_Methods_for_Regression/5.8_More_on_the_Lasso_and_Related_Path_Algorithms/5.8_More_on_the_Lasso_and_Related_Path_Algorithms.md`
   - 代码: `05_Linear_Methods_for_Regression/5.8_More_on_the_Lasso_and_Related_Path_Algorithms/5.8_More_on_the_Lasso_and_Related_Path_Algorithms.py`
-- ⏳ TODO **5.9_Computational_Considerations**
+- ✅ 摘要 **5.9_Computational_Considerations**
   - 摘要: `05_Linear_Methods_for_Regression/5.9_Computational_Considerations/5.9_Computational_Considerations.md`
   - 代码: `05_Linear_Methods_for_Regression/5.9_Computational_Considerations/5.9_Computational_Considerations.py`
-- ⏳ TODO **5.10_Bibliographic_Notes**
+- ✅ 摘要 **5.10_Bibliographic_Notes**
   - 摘要: `05_Linear_Methods_for_Regression/5.10_Bibliographic_Notes/5.10_Bibliographic_Notes.md`
   - 代码: `05_Linear_Methods_for_Regression/5.10_Bibliographic_Notes/5.10_Bibliographic_Notes.py`
-- ⏳ TODO **5.11_Exercises**
+- ✅ 摘要 **5.11_Exercises**
   - 摘要: `05_Linear_Methods_for_Regression/5.11_Exercises/5.11_Exercises.md`
   - 代码: `05_Linear_Methods_for_Regression/5.11_Exercises/5.11_Exercises.py`
 
