@@ -1,5 +1,6 @@
 # 3.4_The_Many_Faces_of_Regularization
 """正则化: 岭回归 vs 最小二乘在高阶多项式上的对比。"""
+import warnings
 import numpy as np
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression, Ridge
@@ -9,6 +10,8 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 plt.rcParams["font.sans-serif"] = ["Arial Unicode MS", "PingFang SC", "SimHei"]
 plt.rcParams["axes.unicode_minus"] = False
+
+warnings.filterwarnings("ignore", category=RuntimeWarning)
 
 rng = np.random.default_rng(0)
 
@@ -23,10 +26,11 @@ def main() -> None:
     plt.plot(xx, np.sin(xx), "k--", label="真实")
     plt.plot(xx, ls.predict(xx[:, None]), label="最小二乘(过拟合)")
     plt.plot(xx, ridge.predict(xx[:, None]), label="岭回归")
+    plt.ylim(-2.5, 2.5)
     plt.legend()
     plt.title("正则化抑制过拟合")
     plt.savefig("03_Introduction/3.4_The_Many_Faces_of_Regularization/3.4_正则化.png", dpi=110)
-    print("ok: 3.4")
+    print("ok: 3.4 图已保存")
 
 
 if __name__ == "__main__":
