@@ -246,39 +246,39 @@
   - 代码: `09_Model_Assessment_and_Selection/9.14_Exercises/9.14_Exercises.py`
 
 ### 10_Model_Inference_and_Averaging
-- ⏳ TODO **10.1_Introduction**
+- ✅ 摘要 **10.1_Introduction**
   - 摘要: `10_Model_Inference_and_Averaging/10.1_Introduction/10.1_Introduction.md`
   - 代码: `10_Model_Inference_and_Averaging/10.1_Introduction/10.1_Introduction.py`
-- ⏳ TODO **10.2_The_Bootstrap_and_Maximum_Likelihood_Methods**
+- ✅ 摘要 **10.2_The_Bootstrap_and_Maximum_Likelihood_Methods**
   - 摘要: `10_Model_Inference_and_Averaging/10.2_The_Bootstrap_and_Maximum_Likelihood_Methods/10.2_The_Bootstrap_and_Maximum_Likelihood_Methods.md`
   - 代码: `10_Model_Inference_and_Averaging/10.2_The_Bootstrap_and_Maximum_Likelihood_Methods/10.2_The_Bootstrap_and_Maximum_Likelihood_Methods.py`
-- ⏳ TODO **10.3_Bayesian_Methods**
+- ✅ 摘要 **10.3_Bayesian_Methods**
   - 摘要: `10_Model_Inference_and_Averaging/10.3_Bayesian_Methods/10.3_Bayesian_Methods.md`
   - 代码: `10_Model_Inference_and_Averaging/10.3_Bayesian_Methods/10.3_Bayesian_Methods.py`
-- ⏳ TODO **10.4_Relationship_Between_the_Bootstrap_and_Bayesian_Inference**
+- ✅ 摘要 **10.4_Relationship_Between_the_Bootstrap_and_Bayesian_Inference**
   - 摘要: `10_Model_Inference_and_Averaging/10.4_Relationship_Between_the_Bootstrap_and_Bayesian_Inference/10.4_Relationship_Between_the_Bootstrap_and_Bayesian_Inference.md`
   - 代码: `10_Model_Inference_and_Averaging/10.4_Relationship_Between_the_Bootstrap_and_Bayesian_Inference/10.4_Relationship_Between_the_Bootstrap_and_Bayesian_Inference.py`
 - 🔬 笔记 **10.5_The_EM_Algorithm**
   - 摘要: `10_Model_Inference_and_Averaging/10.5_The_EM_Algorithm/10.5_The_EM_Algorithm.md`
   - 代码: `10_Model_Inference_and_Averaging/10.5_The_EM_Algorithm/10.5_The_EM_Algorithm.py`
   - 笔记: `10_Model_Inference_and_Averaging/10.5_The_EM_Algorithm/10.5_The_EM_Algorithm.ipynb`
-- ⏳ TODO **10.6_MCMC_for_Sampling_from_the_Posterior**
+- ✅ 摘要 **10.6_MCMC_for_Sampling_from_the_Posterior**
   - 摘要: `10_Model_Inference_and_Averaging/10.6_MCMC_for_Sampling_from_the_Posterior/10.6_MCMC_for_Sampling_from_the_Posterior.md`
   - 代码: `10_Model_Inference_and_Averaging/10.6_MCMC_for_Sampling_from_the_Posterior/10.6_MCMC_for_Sampling_from_the_Posterior.py`
 - 🔬 笔记 **10.7_Bagging**
   - 摘要: `10_Model_Inference_and_Averaging/10.7_Bagging/10.7_Bagging.md`
   - 代码: `10_Model_Inference_and_Averaging/10.7_Bagging/10.7_Bagging.py`
   - 笔记: `10_Model_Inference_and_Averaging/10.7_Bagging/10.7_Bagging.ipynb`
-- ⏳ TODO **10.8_Model_Averaging_and_Stacking**
+- ✅ 摘要 **10.8_Model_Averaging_and_Stacking**
   - 摘要: `10_Model_Inference_and_Averaging/10.8_Model_Averaging_and_Stacking/10.8_Model_Averaging_and_Stacking.md`
   - 代码: `10_Model_Inference_and_Averaging/10.8_Model_Averaging_and_Stacking/10.8_Model_Averaging_and_Stacking.py`
-- ⏳ TODO **10.9_Stochastic_Search:_Bumping**
+- ✅ 摘要 **10.9_Stochastic_Search:_Bumping**
   - 摘要: `10_Model_Inference_and_Averaging/10.9_Stochastic_Search:_Bumping/10.9_Stochastic_Search:_Bumping.md`
   - 代码: `10_Model_Inference_and_Averaging/10.9_Stochastic_Search:_Bumping/10.9_Stochastic_Search:_Bumping.py`
-- ⏳ TODO **10.10_Bibliographic_Notes**
+- ✅ 摘要 **10.10_Bibliographic_Notes**
   - 摘要: `10_Model_Inference_and_Averaging/10.10_Bibliographic_Notes/10.10_Bibliographic_Notes.md`
   - 代码: `10_Model_Inference_and_Averaging/10.10_Bibliographic_Notes/10.10_Bibliographic_Notes.py`
-- ⏳ TODO **10.11_Exercises**
+- ✅ 摘要 **10.11_Exercises**
   - 摘要: `10_Model_Inference_and_Averaging/10.11_Exercises/10.11_Exercises.md`
   - 代码: `10_Model_Inference_and_Averaging/10.11_Exercises/10.11_Exercises.py`
 
