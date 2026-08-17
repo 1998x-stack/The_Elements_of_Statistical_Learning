@@ -165,37 +165,37 @@
   - 代码: `07_Basis_Expansions_and_Regularization/7.11_Appendix:_Computational_Considerations_for_Splines/7.11_Appendix:_Computational_Considerations_for_Splines.py`
 
 ### 08_Kernel_Smoothing_Methods
-- ⏳ TODO **8.1_One-Dimensional_Kernel_Smoothers**
+- ✅ 摘要 **8.1_One-Dimensional_Kernel_Smoothers**
   - 摘要: `08_Kernel_Smoothing_Methods/8.1_One_Dimensional_Kernel_Smoothers/8.1_One_Dimensional_Kernel_Smoothers.md`
   - 代码: `08_Kernel_Smoothing_Methods/8.1_One_Dimensional_Kernel_Smoothers/8.1_One_Dimensional_Kernel_Smoothers.py`
-- ⏳ TODO **8.2_Selecting_the_Width_of_the_Kernel**
+- ✅ 摘要 **8.2_Selecting_the_Width_of_the_Kernel**
   - 摘要: `08_Kernel_Smoothing_Methods/8.2_Selecting_the_Width_of_the_Kernel/8.2_Selecting_the_Width_of_the_Kernel.md`
   - 代码: `08_Kernel_Smoothing_Methods/8.2_Selecting_the_Width_of_the_Kernel/8.2_Selecting_the_Width_of_the_Kernel.py`
-- ⏳ TODO **8.3_Local_Regression_in_Rp**
+- ✅ 摘要 **8.3_Local_Regression_in_Rp**
   - 摘要: `08_Kernel_Smoothing_Methods/8.3_Local_Regression_in_Rp/8.3_Local_Regression_in_Rp.md`
   - 代码: `08_Kernel_Smoothing_Methods/8.3_Local_Regression_in_Rp/8.3_Local_Regression_in_Rp.py`
-- ⏳ TODO **8.4_Structured_Local_Regression_Models_in_Rp**
+- ✅ 摘要 **8.4_Structured_Local_Regression_Models_in_Rp**
   - 摘要: `08_Kernel_Smoothing_Methods/8.4_Structured_Local_Regression_Models_in_Rp/8.4_Structured_Local_Regression_Models_in_Rp.md`
   - 代码: `08_Kernel_Smoothing_Methods/8.4_Structured_Local_Regression_Models_in_Rp/8.4_Structured_Local_Regression_Models_in_Rp.py`
-- ⏳ TODO **8.5_Local_Likelihood_and_Other_Models**
+- ✅ 摘要 **8.5_Local_Likelihood_and_Other_Models**
   - 摘要: `08_Kernel_Smoothing_Methods/8.5_Local_Likelihood_and_Other_Models/8.5_Local_Likelihood_and_Other_Models.md`
   - 代码: `08_Kernel_Smoothing_Methods/8.5_Local_Likelihood_and_Other_Models/8.5_Local_Likelihood_and_Other_Models.py`
-- ⏳ TODO **8.6_Kernel_Density_Estimation_and_Classification**
+- ✅ 摘要 **8.6_Kernel_Density_Estimation_and_Classification**
   - 摘要: `08_Kernel_Smoothing_Methods/8.6_Kernel_Density_Estimation_and_Classification/8.6_Kernel_Density_Estimation_and_Classification.md`
   - 代码: `08_Kernel_Smoothing_Methods/8.6_Kernel_Density_Estimation_and_Classification/8.6_Kernel_Density_Estimation_and_Classification.py`
-- ⏳ TODO **8.7_Radial_Basis_Functions_and_Kernels**
+- ✅ 摘要 **8.7_Radial_Basis_Functions_and_Kernels**
   - 摘要: `08_Kernel_Smoothing_Methods/8.7_Radial_Basis_Functions_and_Kernels/8.7_Radial_Basis_Functions_and_Kernels.md`
   - 代码: `08_Kernel_Smoothing_Methods/8.7_Radial_Basis_Functions_and_Kernels/8.7_Radial_Basis_Functions_and_Kernels.py`
-- ⏳ TODO **8.8_Mixture_Models_for_Density_Estimation_and_Classification**
+- ✅ 摘要 **8.8_Mixture_Models_for_Density_Estimation_and_Classification**
   - 摘要: `08_Kernel_Smoothing_Methods/8.8_Mixture_Models_for_Density_Estimation_and_Classification/8.8_Mixture_Models_for_Density_Estimation_and_Classification.md`
   - 代码: `08_Kernel_Smoothing_Methods/8.8_Mixture_Models_for_Density_Estimation_and_Classification/8.8_Mixture_Models_for_Density_Estimation_and_Classification.py`
-- ⏳ TODO **8.9_Computational_Considerations**
+- ✅ 摘要 **8.9_Computational_Considerations**
   - 摘要: `08_Kernel_Smoothing_Methods/8.9_Computational_Considerations/8.9_Computational_Considerations.md`
   - 代码: `08_Kernel_Smoothing_Methods/8.9_Computational_Considerations/8.9_Computational_Considerations.py`
-- ⏳ TODO **8.10_Bibliographic_Notes**
+- ✅ 摘要 **8.10_Bibliographic_Notes**
   - 摘要: `08_Kernel_Smoothing_Methods/8.10_Bibliographic_Notes/8.10_Bibliographic_Notes.md`
   - 代码: `08_Kernel_Smoothing_Methods/8.10_Bibliographic_Notes/8.10_Bibliographic_Notes.py`
-- ⏳ TODO **8.11_Exercises**
+- ✅ 摘要 **8.11_Exercises**
   - 摘要: `08_Kernel_Smoothing_Methods/8.11_Exercises/8.11_Exercises.md`
   - 代码: `08_Kernel_Smoothing_Methods/8.11_Exercises/8.11_Exercises.py`
 
