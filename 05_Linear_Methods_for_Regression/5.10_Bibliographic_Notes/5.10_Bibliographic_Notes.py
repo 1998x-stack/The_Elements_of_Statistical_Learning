@@ -1,14 +1,17 @@
 # 5.10_Bibliographic_Notes
-"""
-Lecture: 05_Linear_Methods_for_Regression/5.10_Bibliographic_Notes
-Content: 5.10_Bibliographic_Notes
-"""
-import numpy as np
-import matplotlib.pyplot as plt
+"""第5章文献指引。"""
+REFS = [
+    "Hoerl & Kennard (1970): 岭回归",
+    "Tibshirani (1996): Lasso",
+    "Efron et al. (2004): LARS",
+    "Wold (1975): PLS",
+    "Stone & Jolliffe : 主成分回归",
+]
 
 
 def main() -> None:
-    print("示例占位:5.10_Bibliographic_Notes")
+    for r in REFS:
+        print("-", r)
 
 
 if __name__ == "__main__":
