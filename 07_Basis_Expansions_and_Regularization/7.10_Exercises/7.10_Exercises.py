@@ -41,7 +41,6 @@ def main() -> None:
     models = [
         ("三次样条", SplineRegressor(k=3, n_knots=5)),
         ("9次多项式", make_pipeline(PolynomialFeatures(9), LinearRegression())),
-        ("线性", make_pipeline(PolynomialFeatures(1), LinearRegression(include_bias=False))),
     ]
     for name, model in models:
         r2 = cross_val_score(model, np.c_[x], y, cv=5).mean()
