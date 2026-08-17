@@ -18,9 +18,8 @@ def main() -> None:
     Tr, Va = train_test_split(np.arange(n), test_size=0.3, random_state=0)
     best = (None, np.inf)
     for b in range(50):
-        idx = rng.integers(Tr[0], Tr[-1] + 1, len(Tr))
-        xc = x[idx]  # 在训练域内随机重抽
-        m = DecisionTreeRegressor(max_depth=6, random_state=b).fit(xc[:, None], y[idx])
+        idx = Tr[rng.integers(0, len(Tr), len(Tr))]  # 对训练集有放回重采样
+        m = DecisionTreeRegressor(max_depth=6, random_state=b).fit(x[idx, None], y[idx])
         err = mean_squared_error(y[Va], m.predict(x[Va, None]))
         if err < best[1]:
             best = (m, err)
