@@ -13,7 +13,7 @@ import pathlib
 import sys
 
 from eslstruct import load_structure, iter_sections
-from eslstruct import is_deep, normalize
+from eslstruct import is_deep, normalize, progress_key
 
 REPO_ROOT = pathlib.Path(__file__).resolve().parent.parent
 TEMPLATE_DIR = pathlib.Path(__file__).resolve().parent / "templates"
@@ -133,8 +133,8 @@ def build_readme(structure: dict, progress: dict) -> str:
     ]
 
     def rel_key(parts: list[str], sec: str) -> str:
-        """progress.yaml key (chapter/section), no trailing section dir."""
-        return "/".join([normalize(p) for p in parts] + [normalize(sec)])
+        """progress.yaml key (chapter/section), no leading slash."""
+        return progress_key(parts, sec)
 
     def file_base(parts: list[str], sec: str) -> str:
         """true on-disk base: chapter/section/section (section is its own dir)."""

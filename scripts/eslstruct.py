@@ -20,6 +20,11 @@ def is_deep(meta: dict) -> bool:
     return bool(meta.get("deep", False))
 
 
+def progress_key(parts: list[str], section: str) -> str:
+    """Single canonical key into progress.yaml: chapter/section (no leading slash)."""
+    return "/".join([normalize(p) for p in parts] + [normalize(section)])
+
+
 def _is_leaf(value) -> bool:
     """A leaf section stores meta whose keys are a subset of {"deep"}.
 

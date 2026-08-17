@@ -1,8 +1,5 @@
-/01_Preface_to_the_Second_Edition: done
-/02_Preface_to_the_First_Edition: done
-/21_References: done
-/22_Author_Index: done
-/23_Index: done
+01_Preface_to_the_Second_Edition: done
+02_Preface_to_the_First_Edition: done
 03_Introduction/3.1_Examples_of_Learning_Problems: stub
 03_Introduction/3.2_Supervised_and_Unsupervised_Learning: stub
 03_Introduction/3.3_Statistical_Decision_Theory: stub
@@ -173,3 +170,6 @@
 20_High_Dimensional_Problems:_p_greater_than_N/20.7_Feature_Assessment_and_the_Multiple_Testing_Problem: stub
 20_High_Dimensional_Problems:_p_greater_than_N/20.8_Bibliographic_Notes: stub
 20_High_Dimensional_Problems:_p_greater_than_N/20.9_Exercises: stub
+21_References: done
+22_Author_Index: done
+23_Index: done
