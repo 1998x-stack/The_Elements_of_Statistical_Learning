@@ -1,8 +1,10 @@
 # 5.9_Computational_Considerations
 """计算注意: 比较正规方程与 QR/最小二乘求解耗时。"""
 import time
+import warnings
 import numpy as np
 from sklearn.datasets import make_regression
+warnings.filterwarnings("ignore", category=RuntimeWarning)
 
 rng = np.random.default_rng(0)
 
