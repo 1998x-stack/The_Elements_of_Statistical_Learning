@@ -14,53 +14,53 @@
   - 代码: `02_Preface_to_the_First_Edition/02_Preface_to_the_First_Edition.py`
 
 ### 03_Introduction
-- ⏳ TODO **3.1_Examples_of_Learning_Problems**
+- ✅ 摘要 **3.1_Examples_of_Learning_Problems**
   - 摘要: `03_Introduction/3.1_Examples_of_Learning_Problems/3.1_Examples_of_Learning_Problems.md`
   - 代码: `03_Introduction/3.1_Examples_of_Learning_Problems/3.1_Examples_of_Learning_Problems.py`
-- ⏳ TODO **3.2_Supervised_and_Unsupervised_Learning**
+- ✅ 摘要 **3.2_Supervised_and_Unsupervised_Learning**
   - 摘要: `03_Introduction/3.2_Supervised_and_Unsupervised_Learning/3.2_Supervised_and_Unsupervised_Learning.md`
   - 代码: `03_Introduction/3.2_Supervised_and_Unsupervised_Learning/3.2_Supervised_and_Unsupervised_Learning.py`
-- ⏳ TODO **3.3_Statistical_Decision_Theory**
+- ✅ 摘要 **3.3_Statistical_Decision_Theory**
   - 摘要: `03_Introduction/3.3_Statistical_Decision_Theory/3.3_Statistical_Decision_Theory.md`
   - 代码: `03_Introduction/3.3_Statistical_Decision_Theory/3.3_Statistical_Decision_Theory.py`
-- ⏳ TODO **3.4_The_Many_Faces_of_Regularization**
+- ✅ 摘要 **3.4_The_Many_Faces_of_Regularization**
   - 摘要: `03_Introduction/3.4_The_Many_Faces_of_Regularization/3.4_The_Many_Faces_of_Regularization.md`
   - 代码: `03_Introduction/3.4_The_Many_Faces_of_Regularization/3.4_The_Many_Faces_of_Regularization.py`
 
 ### 04_Overview_of_Supervised_Learning
-- ⏳ TODO **4.1_Introduction**
+- ✅ 摘要 **4.1_Introduction**
   - 摘要: `04_Overview_of_Supervised_Learning/4.1_Introduction/4.1_Introduction.md`
   - 代码: `04_Overview_of_Supervised_Learning/4.1_Introduction/4.1_Introduction.py`
-- ⏳ TODO **4.2_Variable_Types_and_Terminology**
+- ✅ 摘要 **4.2_Variable_Types_and_Terminology**
   - 摘要: `04_Overview_of_Supervised_Learning/4.2_Variable_Types_and_Terminology/4.2_Variable_Types_and_Terminology.md`
   - 代码: `04_Overview_of_Supervised_Learning/4.2_Variable_Types_and_Terminology/4.2_Variable_Types_and_Terminology.py`
-- ⏳ TODO **4.3_Two_Simple_Approaches_to_Prediction:_Least_Squares_and_Nearest_Neighbors**
+- ✅ 摘要 **4.3_Two_Simple_Approaches_to_Prediction:_Least_Squares_and_Nearest_Neighbors**
   - 摘要: `04_Overview_of_Supervised_Learning/4.3_Two_Simple_Approaches_to_Prediction:_Least_Squares_and_Nearest_Neighbors/4.3_Two_Simple_Approaches_to_Prediction:_Least_Squares_and_Nearest_Neighbors.md`
   - 代码: `04_Overview_of_Supervised_Learning/4.3_Two_Simple_Approaches_to_Prediction:_Least_Squares_and_Nearest_Neighbors/4.3_Two_Simple_Approaches_to_Prediction:_Least_Squares_and_Nearest_Neighbors.py`
-- ⏳ TODO **4.4_Statistical_Decision_Theory**
+- ✅ 摘要 **4.4_Statistical_Decision_Theory**
   - 摘要: `04_Overview_of_Supervised_Learning/4.4_Statistical_Decision_Theory/4.4_Statistical_Decision_Theory.md`
   - 代码: `04_Overview_of_Supervised_Learning/4.4_Statistical_Decision_Theory/4.4_Statistical_Decision_Theory.py`
 - 🔬 笔记 **4.5_Local_Methods_in_High_Dimensions**
   - 摘要: `04_Overview_of_Supervised_Learning/4.5_Local_Methods_in_High_Dimensions/4.5_Local_Methods_in_High_Dimensions.md`
   - 代码: `04_Overview_of_Supervised_Learning/4.5_Local_Methods_in_High_Dimensions/4.5_Local_Methods_in_High_Dimensions.py`
   - 笔记: `04_Overview_of_Supervised_Learning/4.5_Local_Methods_in_High_Dimensions/4.5_Local_Methods_in_High_Dimensions.ipynb`
-- ⏳ TODO **4.6_Statistical_Models,_Supervised_Learning_and_Function_Approximation**
+- ✅ 摘要 **4.6_Statistical_Models,_Supervised_Learning_and_Function_Approximation**
   - 摘要: `04_Overview_of_Supervised_Learning/4.6_Statistical_Models,_Supervised_Learning_and_Function_Approximation/4.6_Statistical_Models,_Supervised_Learning_and_Function_Approximation.md`
   - 代码: `04_Overview_of_Supervised_Learning/4.6_Statistical_Models,_Supervised_Learning_and_Function_Approximation/4.6_Statistical_Models,_Supervised_Learning_and_Function_Approximation.py`
-- ⏳ TODO **4.7_Structured_Regression_Models**
+- ✅ 摘要 **4.7_Structured_Regression_Models**
   - 摘要: `04_Overview_of_Supervised_Learning/4.7_Structured_Regression_Models/4.7_Structured_Regression_Models.md`
   - 代码: `04_Overview_of_Supervised_Learning/4.7_Structured_Regression_Models/4.7_Structured_Regression_Models.py`
-- ⏳ TODO **4.8_Classes_of_Restricted_Estimators**
+- ✅ 摘要 **4.8_Classes_of_Restricted_Estimators**
   - 摘要: `04_Overview_of_Supervised_Learning/4.8_Classes_of_Restricted_Estimators/4.8_Classes_of_Restricted_Estimators.md`
   - 代码: `04_Overview_of_Supervised_Learning/4.8_Classes_of_Restricted_Estimators/4.8_Classes_of_Restricted_Estimators.py`
 - 🔬 笔记 **4.9_Model_Selection_and_the_Bias–Variance_Tradeoff**
   - 摘要: `04_Overview_of_Supervised_Learning/4.9_Model_Selection_and_the_Bias–Variance_Tradeoff/4.9_Model_Selection_and_the_Bias–Variance_Tradeoff.md`
   - 代码: `04_Overview_of_Supervised_Learning/4.9_Model_Selection_and_the_Bias–Variance_Tradeoff/4.9_Model_Selection_and_the_Bias–Variance_Tradeoff.py`
   - 笔记: `04_Overview_of_Supervised_Learning/4.9_Model_Selection_and_the_Bias–Variance_Tradeoff/4.9_Model_Selection_and_the_Bias–Variance_Tradeoff.ipynb`
-- ⏳ TODO **4.10_Bibliographic_Notes**
+- ✅ 摘要 **4.10_Bibliographic_Notes**
   - 摘要: `04_Overview_of_Supervised_Learning/4.10_Bibliographic_Notes/4.10_Bibliographic_Notes.md`
   - 代码: `04_Overview_of_Supervised_Learning/4.10_Bibliographic_Notes/4.10_Bibliographic_Notes.py`
-- ⏳ TODO **4.11_Exercises**
+- ✅ 摘要 **4.11_Exercises**
   - 摘要: `04_Overview_of_Supervised_Learning/4.11_Exercises/4.11_Exercises.md`
   - 代码: `04_Overview_of_Supervised_Learning/4.11_Exercises/4.11_Exercises.py`
 
