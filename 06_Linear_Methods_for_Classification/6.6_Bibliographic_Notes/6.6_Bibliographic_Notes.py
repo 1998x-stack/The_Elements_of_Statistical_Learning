@@ -1,14 +1,16 @@
 # 6.6_Bibliographic_Notes
-"""
-Lecture: 06_Linear_Methods_for_Classification/6.6_Bibliographic_Notes
-Content: 6.6_Bibliographic_Notes
-"""
-import numpy as np
-import matplotlib.pyplot as plt
+"""第6章文献指引。"""
+REFS = [
+    "Fisher (1936): LDA",
+    "Berkson / Cox: 逻辑回归",
+    "Vapnik & Chervonenkis: 支持向量与 VC 理论",
+    "Hastie, Tibshirani & Friedman (2009) ESL Ch.4",
+]
 
 
 def main() -> None:
-    print("示例占位:6.6_Bibliographic_Notes")
+    for r in REFS:
+        print("-", r)
 
 
 if __name__ == "__main__":
