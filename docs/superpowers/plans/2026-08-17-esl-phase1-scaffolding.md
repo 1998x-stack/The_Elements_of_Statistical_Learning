@@ -171,28 +171,29 @@ def is_deep(meta: dict) -> bool:
     return bool(meta.get("deep", False))
 
 
+def _is_leaf(value) -> bool:
+    """A leaf section stores meta whose keys are a subset of {"deep"}.
+
+    A branch stores a dict of child sections (keys contain section names).
+    """
+    return not isinstance(value, dict) or set(value.keys()).issubset({"deep"})
+
+
 def iter_sections(structure: dict) -> Iterator[tuple[list[str], str, dict]]:
     """Yield (chapter_parts, section_key, meta) for every leaf section.
 
-    chapter_parts contains the top-level chapter key (and any intermediate
+    chapter_parts includes the top-level chapter key (and any intermediate
     nesting keys) leading to the leaf.
     """
     def walk(node: dict, parts: list[str]):
         for key, value in node.items():
-            if isinstance(value, dict):
+            if isinstance(value, dict) and not _is_leaf(value):
                 walk(value, parts + [key])
             else:
                 yield parts, key, value
 
     yield from walk(structure, [])
 
-
-def deep_meta(structure: dict) -> dict:
-    """Return {chapter_key_chain: {section_key_chain: True}} for deep sections.
-
-    Not required by the generator; kept for test introspection.
-    """
-    return structure
 ```
 
 - [ ] **Step 2: Write the stub templates**
@@ -253,7 +254,7 @@ Expected: prints `175 sections`; `config/progress.yaml` has 175 entries keyed by
 grep -c "notebook" config/progress.yaml
 grep -c "stub" config/progress.yaml
 ```
-Expected: `27` and `148`.
+Expected: `25` and `150`.
 
 - [ ] **Step 5: Commit**
 
@@ -405,10 +406,10 @@ def _find_chain(structure: dict, target: str) -> list[str]:
     """Return the list of keys from chapter root down to (exclusive of) the section."""
     def walk(node: dict, parts: list[str]):
         for key, value in node.items():
-            if isinstance(value, dict):
-                yielded = yield from walk(value, parts + [key])
-                if yielded is not None:
-                    return yielded
+            if isinstance(value, dict) and not _is_leaf(value):
+                result = walk(value, parts + [key])
+                if result is not None:
+                    return result
             else:
                 if key == target:
                     return parts
