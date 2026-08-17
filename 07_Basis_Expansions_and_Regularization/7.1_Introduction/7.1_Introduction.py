@@ -1,14 +1,17 @@
 # 7.1_Introduction
-"""
-Lecture: 07_Basis_Expansions_and_Regularization/7.1_Introduction
-Content: 7.1_Introduction
-"""
-import numpy as np
-import matplotlib.pyplot as plt
+"""第7章概述: 基展开与正则化。"""
+ROADMAP = [
+    ("7.2-7.4", "样条与平滑样条"),
+    ("7.5-7.6", "非参数逻辑回归与多维样条"),
+    ("7.7", "正则化与再生核(RKHS)"),
+    ("7.8", "小波平滑"),
+]
 
 
 def main() -> None:
-    print("示例占位:7.1_Introduction")
+    print("第7章: Basis Expansions and Regularization")
+    for k, t in ROADMAP:
+        print(f"  {k}: {t}")
 
 
 if __name__ == "__main__":
