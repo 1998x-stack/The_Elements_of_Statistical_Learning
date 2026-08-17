@@ -128,39 +128,39 @@
   - 代码: `06_Linear_Methods_for_Classification/6.7_Exercises/6.7_Exercises.py`
 
 ### 07_Basis_Expansions_and_Regularization
-- ⏳ TODO **7.1_Introduction**
+- ✅ 摘要 **7.1_Introduction**
   - 摘要: `07_Basis_Expansions_and_Regularization/7.1_Introduction/7.1_Introduction.md`
   - 代码: `07_Basis_Expansions_and_Regularization/7.1_Introduction/7.1_Introduction.py`
 - 🔬 笔记 **7.2_Piecewise_Polynomials_and_Splines**
   - 摘要: `07_Basis_Expansions_and_Regularization/7.2_Piecewise_Polynomials_and_Splines/7.2_Piecewise_Polynomials_and_Splines.md`
   - 代码: `07_Basis_Expansions_and_Regularization/7.2_Piecewise_Polynomials_and_Splines/7.2_Piecewise_Polynomials_and_Splines.py`
   - 笔记: `07_Basis_Expansions_and_Regularization/7.2_Piecewise_Polynomials_and_Splines/7.2_Piecewise_Polynomials_and_Splines.ipynb`
-- ⏳ TODO **7.3_Filtering_and_Feature_Extraction**
+- ✅ 摘要 **7.3_Filtering_and_Feature_Extraction**
   - 摘要: `07_Basis_Expansions_and_Regularization/7.3_Filtering_and_Feature_Extraction/7.3_Filtering_and_Feature_Extraction.md`
   - 代码: `07_Basis_Expansions_and_Regularization/7.3_Filtering_and_Feature_Extraction/7.3_Filtering_and_Feature_Extraction.py`
 - 🔬 笔记 **7.4_Smoothing_Splines**
   - 摘要: `07_Basis_Expansions_and_Regularization/7.4_Smoothing_Splines/7.4_Smoothing_Splines.md`
   - 代码: `07_Basis_Expansions_and_Regularization/7.4_Smoothing_Splines/7.4_Smoothing_Splines.py`
   - 笔记: `07_Basis_Expansions_and_Regularization/7.4_Smoothing_Splines/7.4_Smoothing_Splines.ipynb`
-- ⏳ TODO **7.5_Nonparametric_Logistic_Regression**
+- ✅ 摘要 **7.5_Nonparametric_Logistic_Regression**
   - 摘要: `07_Basis_Expansions_and_Regularization/7.5_Nonparametric_Logistic_Regression/7.5_Nonparametric_Logistic_Regression.md`
   - 代码: `07_Basis_Expansions_and_Regularization/7.5_Nonparametric_Logistic_Regression/7.5_Nonparametric_Logistic_Regression.py`
-- ⏳ TODO **7.6_Multidimensional_Splines**
+- ✅ 摘要 **7.6_Multidimensional_Splines**
   - 摘要: `07_Basis_Expansions_and_Regularization/7.6_Multidimensional_Splines/7.6_Multidimensional_Splines.md`
   - 代码: `07_Basis_Expansions_and_Regularization/7.6_Multidimensional_Splines/7.6_Multidimensional_Splines.py`
-- ⏳ TODO **7.7_Regularization_and_Reproducing_Kernel_Hilbert_Spaces**
+- ✅ 摘要 **7.7_Regularization_and_Reproducing_Kernel_Hilbert_Spaces**
   - 摘要: `07_Basis_Expansions_and_Regularization/7.7_Regularization_and_Reproducing_Kernel_Hilbert_Spaces/7.7_Regularization_and_Reproducing_Kernel_Hilbert_Spaces.md`
   - 代码: `07_Basis_Expansions_and_Regularization/7.7_Regularization_and_Reproducing_Kernel_Hilbert_Spaces/7.7_Regularization_and_Reproducing_Kernel_Hilbert_Spaces.py`
-- ⏳ TODO **7.8_Wavelet_Smoothing**
+- ✅ 摘要 **7.8_Wavelet_Smoothing**
   - 摘要: `07_Basis_Expansions_and_Regularization/7.8_Wavelet_Smoothing/7.8_Wavelet_Smoothing.md`
   - 代码: `07_Basis_Expansions_and_Regularization/7.8_Wavelet_Smoothing/7.8_Wavelet_Smoothing.py`
-- ⏳ TODO **7.9_Bibliographic_Notes**
+- ✅ 摘要 **7.9_Bibliographic_Notes**
   - 摘要: `07_Basis_Expansions_and_Regularization/7.9_Bibliographic_Notes/7.9_Bibliographic_Notes.md`
   - 代码: `07_Basis_Expansions_and_Regularization/7.9_Bibliographic_Notes/7.9_Bibliographic_Notes.py`
-- ⏳ TODO **7.10_Exercises**
+- ✅ 摘要 **7.10_Exercises**
   - 摘要: `07_Basis_Expansions_and_Regularization/7.10_Exercises/7.10_Exercises.md`
   - 代码: `07_Basis_Expansions_and_Regularization/7.10_Exercises/7.10_Exercises.py`
-- ⏳ TODO **7.11_Appendix:_Computational_Considerations_for_Splines**
+- ✅ 摘要 **7.11_Appendix:_Computational_Considerations_for_Splines**
   - 摘要: `07_Basis_Expansions_and_Regularization/7.11_Appendix:_Computational_Considerations_for_Splines/7.11_Appendix:_Computational_Considerations_for_Splines.md`
   - 代码: `07_Basis_Expansions_and_Regularization/7.11_Appendix:_Computational_Considerations_for_Splines/7.11_Appendix:_Computational_Considerations_for_Splines.py`
 
