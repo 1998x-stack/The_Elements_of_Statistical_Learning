@@ -406,7 +406,7 @@
   - 代码: `13_Neural_Networks/13.12_Exercises/13.12_Exercises.py`
 
 ### 14_Support_Vector_Machines_and_Flexible_Discriminants
-- ⏳ TODO **14.1_Introduction**
+- ✅ 摘要 **14.1_Introduction**
   - 摘要: `14_Support_Vector_Machines_and_Flexible_Discriminants/14.1_Introduction/14.1_Introduction.md`
   - 代码: `14_Support_Vector_Machines_and_Flexible_Discriminants/14.1_Introduction/14.1_Introduction.py`
 - 🔬 笔记 **14.2_The_Support_Vector_Classifier**
@@ -417,22 +417,22 @@
   - 摘要: `14_Support_Vector_Machines_and_Flexible_Discriminants/14.3_Support_Vector_Machines_and_Kernels/14.3_Support_Vector_Machines_and_Kernels.md`
   - 代码: `14_Support_Vector_Machines_and_Flexible_Discriminants/14.3_Support_Vector_Machines_and_Kernels/14.3_Support_Vector_Machines_and_Kernels.py`
   - 笔记: `14_Support_Vector_Machines_and_Flexible_Discriminants/14.3_Support_Vector_Machines_and_Kernels/14.3_Support_Vector_Machines_and_Kernels.ipynb`
-- ⏳ TODO **14.4_Generalizing_Linear_Discriminant_Analysis**
+- ✅ 摘要 **14.4_Generalizing_Linear_Discriminant_Analysis**
   - 摘要: `14_Support_Vector_Machines_and_Flexible_Discriminants/14.4_Generalizing_Linear_Discriminant_Analysis/14.4_Generalizing_Linear_Discriminant_Analysis.md`
   - 代码: `14_Support_Vector_Machines_and_Flexible_Discriminants/14.4_Generalizing_Linear_Discriminant_Analysis/14.4_Generalizing_Linear_Discriminant_Analysis.py`
-- ⏳ TODO **14.5_Flexible_Discriminant_Analysis**
+- ✅ 摘要 **14.5_Flexible_Discriminant_Analysis**
   - 摘要: `14_Support_Vector_Machines_and_Flexible_Discriminants/14.5_Flexible_Discriminant_Analysis/14.5_Flexible_Discriminant_Analysis.md`
   - 代码: `14_Support_Vector_Machines_and_Flexible_Discriminants/14.5_Flexible_Discriminant_Analysis/14.5_Flexible_Discriminant_Analysis.py`
-- ⏳ TODO **14.6_Penalized_Discriminant_Analysis**
+- ✅ 摘要 **14.6_Penalized_Discriminant_Analysis**
   - 摘要: `14_Support_Vector_Machines_and_Flexible_Discriminants/14.6_Penalized_Discriminant_Analysis/14.6_Penalized_Discriminant_Analysis.md`
   - 代码: `14_Support_Vector_Machines_and_Flexible_Discriminants/14.6_Penalized_Discriminant_Analysis/14.6_Penalized_Discriminant_Analysis.py`
-- ⏳ TODO **14.7_Mixture_Discriminant_Analysis**
+- ✅ 摘要 **14.7_Mixture_Discriminant_Analysis**
   - 摘要: `14_Support_Vector_Machines_and_Flexible_Discriminants/14.7_Mixture_Discriminant_Analysis/14.7_Mixture_Discriminant_Analysis.md`
   - 代码: `14_Support_Vector_Machines_and_Flexible_Discriminants/14.7_Mixture_Discriminant_Analysis/14.7_Mixture_Discriminant_Analysis.py`
-- ⏳ TODO **14.8_Bibliographic_Notes**
+- ✅ 摘要 **14.8_Bibliographic_Notes**
   - 摘要: `14_Support_Vector_Machines_and_Flexible_Discriminants/14.8_Bibliographic_Notes/14.8_Bibliographic_Notes.md`
   - 代码: `14_Support_Vector_Machines_and_Flexible_Discriminants/14.8_Bibliographic_Notes/14.8_Bibliographic_Notes.py`
-- ⏳ TODO **14.9_Exercises**
+- ✅ 摘要 **14.9_Exercises**
   - 摘要: `14_Support_Vector_Machines_and_Flexible_Discriminants/14.9_Exercises/14.9_Exercises.md`
   - 代码: `14_Support_Vector_Machines_and_Flexible_Discriminants/14.9_Exercises/14.9_Exercises.py`
 
