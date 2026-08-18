@@ -1,14 +1,18 @@
 # 14.4_Generalizing_Linear_Discriminant_Analysis
-"""
-Lecture: 14_Support_Vector_Machines_and_Flexible_Discriminants/14.4_Generalizing_Linear_Discriminant_Analysis
-Content: 14.4_Generalizing_Linear_Discriminant_Analysis
-"""
+"""推广 LDA: 用降秩判别空间(LDA eigen solver)。"""
+import warnings
 import numpy as np
-import matplotlib.pyplot as plt
+from sklearn.datasets import load_iris
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+warnings.filterwarnings("ignore", category=RuntimeWarning)
 
 
 def main() -> None:
-    print("示例占位:14.4_Generalizing_Linear_Discriminant_Analysis")
+    X, y = load_iris(return_X_y=True)
+    lda = LinearDiscriminantAnalysis(solver="eigen").fit(X, y)
+    print("判别方向数(降秩) =", len(lda.coef_))
+    print("训练准确率 =", round(lda.score(X, y), 3))
+    print("LDA 通过判别空间(low-rank)把数据投影分层。")
 
 
 if __name__ == "__main__":
