@@ -1,14 +1,18 @@
 # 16.11_Bibliographic_Notes
-"""
-Lecture: 16_Unsupervised_Learning/16.11_Bibliographic_Notes
-Content: 16.11_Bibliographic_Notes
-"""
-import numpy as np
-import matplotlib.pyplot as plt
+"""第16章文献指引。"""
+REFS = [
+    "Hartigan & Wong: k 均值",
+    "Kaufman & Rousseeuw: 聚类",
+    "Pearson: PCA",
+    "Hyvarinen: ICA",
+    "Tenenbaum/Silva/Langford: Isomap",
+    "Page & Brin: PageRank",
+]
 
 
 def main() -> None:
-    print("示例占位:16.11_Bibliographic_Notes")
+    for r in REFS:
+        print("-", r)
 
 
 if __name__ == "__main__":
