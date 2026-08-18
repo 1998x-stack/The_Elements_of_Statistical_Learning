@@ -1,14 +1,15 @@
 # 15.6_Bibliographic_Notes
-"""
-Lecture: 15_Prototype_Methods_and_Nearest_Neighbors/15.6_Bibliographic_Notes
-Content: 15.6_Bibliographic_Notes
-"""
-import numpy as np
-import matplotlib.pyplot as plt
+"""第15章文献指引。"""
+REFS = [
+    "Cover & Hart (1967): 最近邻",
+    "Hand & Vinciotti : 原型方法综述",
+    "Hastie & Tibshirani (1996): DANN",
+]
 
 
 def main() -> None:
-    print("示例占位:15.6_Bibliographic_Notes")
+    for r in REFS:
+        print("-", r)
 
 
 if __name__ == "__main__":
