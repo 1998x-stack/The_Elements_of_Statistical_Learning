@@ -1,8 +1,40 @@
 # The Elements of Statistical Learning
 
-> 一个关于 *The Elements of Statistical Learning* 的目录结构。
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## 目录与进度
+> An interactive, chapter-by-chapter companion to *The Elements of StatisticalLearning* (Hastie, Tibshirani & Friedman), with runnable demos and annotated summaries. —— 《统计学习基础》中文阅读与代码实战笔记(每章含摘要 + 可运行代码 + Jupyter 笔记)。
+
+## 🚀 Quick Start
+
+```bash
+pip install numpy scipy matplotlib ipykernel
+python3 "03_Introduction/3.1_Examples_of_Learning_Problems/3.1_Examples_of_Learning_Problems.py"
+```
+
+每个脚本独立可跑,直接打印/绘图;较深的章节另附 `.ipynb` 笔记。Each standalone script is self-contained; deeper sections include a Jupyter notebook.
+
+## ✅ Quality Bar
+
+- 内容按章节组织,每节一对 `摘要(.md)` + `代码(.py)`,深度学习节加 `.ipynb` 笔记。
+- 目录由 `scripts/generate_docs.py` 幂等重建, 不覆盖已创作内容。
+- 进度图例: ⏳ TODO（未写） · ✅ 摘要（已完成） · 🔬 笔记（含 Jupyter 笔记本）。
+- 可运行演示均经 smoke 校验(见下方 Verified Evidence)。
+
+## 🔬 Verified Evidence
+
+> *短时冒烟运行, 非完整教材结果 — 仅证明代码可复现执行。* (Short smoke run, not a full
+textbook reproduction — demonstrates the demos execute cleanly.)
+
+```text
+$ pip install -r requirements.txt
+$ python3 scripts/smoke_test.py
+177/177 scripts passed.
+```
+
+---
+
+## 📚 目录与进度
 
 状态图例: ⏳ TODO（未写） · ✅ 摘要（已完成） · 🔬 笔记（含 Jupyter 笔记本）
 
