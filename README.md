@@ -367,41 +367,41 @@
   - 代码: `12_Boosting_and_Additive_Trees/12.16_Exercises/12.16_Exercises.py`
 
 ### 13_Neural_Networks
-- ⏳ TODO **13.1_Introduction**
+- ✅ 摘要 **13.1_Introduction**
   - 摘要: `13_Neural_Networks/13.1_Introduction/13.1_Introduction.md`
   - 代码: `13_Neural_Networks/13.1_Introduction/13.1_Introduction.py`
-- ⏳ TODO **13.2_Projection_Pursuit_Regression**
+- ✅ 摘要 **13.2_Projection_Pursuit_Regression**
   - 摘要: `13_Neural_Networks/13.2_Projection_Pursuit_Regression/13.2_Projection_Pursuit_Regression.md`
   - 代码: `13_Neural_Networks/13.2_Projection_Pursuit_Regression/13.2_Projection_Pursuit_Regression.py`
 - 🔬 笔记 **13.3_Neural_Networks**
   - 摘要: `13_Neural_Networks/13.3_Neural_Networks/13.3_Neural_Networks.md`
   - 代码: `13_Neural_Networks/13.3_Neural_Networks/13.3_Neural_Networks.py`
   - 笔记: `13_Neural_Networks/13.3_Neural_Networks/13.3_Neural_Networks.ipynb`
-- ⏳ TODO **13.4_Fitting_Neural_Networks**
+- ✅ 摘要 **13.4_Fitting_Neural_Networks**
   - 摘要: `13_Neural_Networks/13.4_Fitting_Neural_Networks/13.4_Fitting_Neural_Networks.md`
   - 代码: `13_Neural_Networks/13.4_Fitting_Neural_Networks/13.4_Fitting_Neural_Networks.py`
-- ⏳ TODO **13.5_Some_Issues_in_Training_Neural_Networks**
+- ✅ 摘要 **13.5_Some_Issues_in_Training_Neural_Networks**
   - 摘要: `13_Neural_Networks/13.5_Some_Issues_in_Training_Neural_Networks/13.5_Some_Issues_in_Training_Neural_Networks.md`
   - 代码: `13_Neural_Networks/13.5_Some_Issues_in_Training_Neural_Networks/13.5_Some_Issues_in_Training_Neural_Networks.py`
-- ⏳ TODO **13.6_Example:_Simulated_Data**
+- ✅ 摘要 **13.6_Example:_Simulated_Data**
   - 摘要: `13_Neural_Networks/13.6_Example:_Simulated_Data/13.6_Example:_Simulated_Data.md`
   - 代码: `13_Neural_Networks/13.6_Example:_Simulated_Data/13.6_Example:_Simulated_Data.py`
-- ⏳ TODO **13.7_Example:_ZIP_Code_Data**
+- ✅ 摘要 **13.7_Example:_ZIP_Code_Data**
   - 摘要: `13_Neural_Networks/13.7_Example:_ZIP_Code_Data/13.7_Example:_ZIP_Code_Data.md`
   - 代码: `13_Neural_Networks/13.7_Example:_ZIP_Code_Data/13.7_Example:_ZIP_Code_Data.py`
-- ⏳ TODO **13.8_Discussion**
+- ✅ 摘要 **13.8_Discussion**
   - 摘要: `13_Neural_Networks/13.8_Discussion/13.8_Discussion.md`
   - 代码: `13_Neural_Networks/13.8_Discussion/13.8_Discussion.py`
-- ⏳ TODO **13.9_Bayesian_Neural_Nets_and_the_NIPS_2003_Challenge**
+- ✅ 摘要 **13.9_Bayesian_Neural_Nets_and_the_NIPS_2003_Challenge**
   - 摘要: `13_Neural_Networks/13.9_Bayesian_Neural_Nets_and_the_NIPS_2003_Challenge/13.9_Bayesian_Neural_Nets_and_the_NIPS_2003_Challenge.md`
   - 代码: `13_Neural_Networks/13.9_Bayesian_Neural_Nets_and_the_NIPS_2003_Challenge/13.9_Bayesian_Neural_Nets_and_the_NIPS_2003_Challenge.py`
-- ⏳ TODO **13.10_Computational_Considerations**
+- ✅ 摘要 **13.10_Computational_Considerations**
   - 摘要: `13_Neural_Networks/13.10_Computational_Considerations/13.10_Computational_Considerations.md`
   - 代码: `13_Neural_Networks/13.10_Computational_Considerations/13.10_Computational_Considerations.py`
-- ⏳ TODO **13.11_Bibliographic_Notes**
+- ✅ 摘要 **13.11_Bibliographic_Notes**
   - 摘要: `13_Neural_Networks/13.11_Bibliographic_Notes/13.11_Bibliographic_Notes.md`
   - 代码: `13_Neural_Networks/13.11_Bibliographic_Notes/13.11_Bibliographic_Notes.py`
-- ⏳ TODO **13.12_Exercises**
+- ✅ 摘要 **13.12_Exercises**
   - 摘要: `13_Neural_Networks/13.12_Exercises/13.12_Exercises.md`
   - 代码: `13_Neural_Networks/13.12_Exercises/13.12_Exercises.py`
 
