@@ -1,14 +1,16 @@
 # 14.8_Bibliographic_Notes
-"""
-Lecture: 14_Support_Vector_Machines_and_Flexible_Discriminants/14.8_Bibliographic_Notes
-Content: 14.8_Bibliographic_Notes
-"""
-import numpy as np
-import matplotlib.pyplot as plt
+"""第14章文献指引。"""
+REFS = [
+    "Vapnik (1995): 支持向量机",
+    "Boser, Guyon & Vapnik (1992): 核技巧",
+    "Cortes & Vapnik (1995): 软间隔",
+    "Hastie, Tibshirani & Buja (1994): FDA/MDA",
+]
 
 
 def main() -> None:
-    print("示例占位:14.8_Bibliographic_Notes")
+    for r in REFS:
+        print("-", r)
 
 
 if __name__ == "__main__":
