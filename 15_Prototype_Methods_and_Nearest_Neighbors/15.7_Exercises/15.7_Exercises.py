@@ -9,7 +9,7 @@ warnings.filterwarnings("ignore", category=RuntimeWarning)
 
 
 def main() -> None:
-    X, y = make_classification(n_samples=300, n_features=4, n_informative=3, random_state=0)
+    X, y = make_classification(n_samples=300, n_features=6, n_informative=3, n_redundant=0, random_state=0)
     print("k   CV准确率")
     for k in (1, 5, 20, 60):
         s = cross_val_score(KNeighborsClassifier(n_neighbors=k), X, y, cv=5).mean()
