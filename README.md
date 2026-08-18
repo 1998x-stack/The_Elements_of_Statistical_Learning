@@ -437,26 +437,26 @@
   - 代码: `14_Support_Vector_Machines_and_Flexible_Discriminants/14.9_Exercises/14.9_Exercises.py`
 
 ### 15_Prototype_Methods_and_Nearest_Neighbors
-- ⏳ TODO **15.1_Introduction**
+- ✅ 摘要 **15.1_Introduction**
   - 摘要: `15_Prototype_Methods_and_Nearest_Neighbors/15.1_Introduction/15.1_Introduction.md`
   - 代码: `15_Prototype_Methods_and_Nearest_Neighbors/15.1_Introduction/15.1_Introduction.py`
-- ⏳ TODO **15.2_Prototype_Methods**
+- ✅ 摘要 **15.2_Prototype_Methods**
   - 摘要: `15_Prototype_Methods_and_Nearest_Neighbors/15.2_Prototype_Methods/15.2_Prototype_Methods.md`
   - 代码: `15_Prototype_Methods_and_Nearest_Neighbors/15.2_Prototype_Methods/15.2_Prototype_Methods.py`
 - 🔬 笔记 **15.3_k-Nearest-Neighbor_Classifiers**
   - 摘要: `15_Prototype_Methods_and_Nearest_Neighbors/15.3_k_Nearest_Neighbor_Classifiers/15.3_k_Nearest_Neighbor_Classifiers.md`
   - 代码: `15_Prototype_Methods_and_Nearest_Neighbors/15.3_k_Nearest_Neighbor_Classifiers/15.3_k_Nearest_Neighbor_Classifiers.py`
   - 笔记: `15_Prototype_Methods_and_Nearest_Neighbors/15.3_k_Nearest_Neighbor_Classifiers/15.3_k_Nearest_Neighbor_Classifiers.ipynb`
-- ⏳ TODO **15.4_Adaptive_Nearest-Neighbor_Methods**
+- ✅ 摘要 **15.4_Adaptive_Nearest-Neighbor_Methods**
   - 摘要: `15_Prototype_Methods_and_Nearest_Neighbors/15.4_Adaptive_Nearest_Neighbor_Methods/15.4_Adaptive_Nearest_Neighbor_Methods.md`
   - 代码: `15_Prototype_Methods_and_Nearest_Neighbors/15.4_Adaptive_Nearest_Neighbor_Methods/15.4_Adaptive_Nearest_Neighbor_Methods.py`
-- ⏳ TODO **15.5_Computational_Considerations**
+- ✅ 摘要 **15.5_Computational_Considerations**
   - 摘要: `15_Prototype_Methods_and_Nearest_Neighbors/15.5_Computational_Considerations/15.5_Computational_Considerations.md`
   - 代码: `15_Prototype_Methods_and_Nearest_Neighbors/15.5_Computational_Considerations/15.5_Computational_Considerations.py`
-- ⏳ TODO **15.6_Bibliographic_Notes**
+- ✅ 摘要 **15.6_Bibliographic_Notes**
   - 摘要: `15_Prototype_Methods_and_Nearest_Neighbors/15.6_Bibliographic_Notes/15.6_Bibliographic_Notes.md`
   - 代码: `15_Prototype_Methods_and_Nearest_Neighbors/15.6_Bibliographic_Notes/15.6_Bibliographic_Notes.py`
-- ⏳ TODO **15.7_Exercises**
+- ✅ 摘要 **15.7_Exercises**
   - 摘要: `15_Prototype_Methods_and_Nearest_Neighbors/15.7_Exercises/15.7_Exercises.md`
   - 代码: `15_Prototype_Methods_and_Nearest_Neighbors/15.7_Exercises/15.7_Exercises.py`
 
