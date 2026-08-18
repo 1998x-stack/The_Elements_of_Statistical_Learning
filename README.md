@@ -318,51 +318,51 @@
   - 摘要: `12_Boosting_and_Additive_Trees/12.1_Boosting_Methods/12.1_Boosting_Methods.md`
   - 代码: `12_Boosting_and_Additive_Trees/12.1_Boosting_Methods/12.1_Boosting_Methods.py`
   - 笔记: `12_Boosting_and_Additive_Trees/12.1_Boosting_Methods/12.1_Boosting_Methods.ipynb`
-- ⏳ TODO **12.2_Boosting_Fits_an_Additive_Model**
+- ✅ 摘要 **12.2_Boosting_Fits_an_Additive_Model**
   - 摘要: `12_Boosting_and_Additive_Trees/12.2_Boosting_Fits_an_Additive_Model/12.2_Boosting_Fits_an_Additive_Model.md`
   - 代码: `12_Boosting_and_Additive_Trees/12.2_Boosting_Fits_an_Additive_Model/12.2_Boosting_Fits_an_Additive_Model.py`
-- ⏳ TODO **12.3_Forward_Stagewise_Additive_Modeling**
+- ✅ 摘要 **12.3_Forward_Stagewise_Additive_Modeling**
   - 摘要: `12_Boosting_and_Additive_Trees/12.3_Forward_Stagewise_Additive_Modeling/12.3_Forward_Stagewise_Additive_Modeling.md`
   - 代码: `12_Boosting_and_Additive_Trees/12.3_Forward_Stagewise_Additive_Modeling/12.3_Forward_Stagewise_Additive_Modeling.py`
 - 🔬 笔记 **12.4_Exponential_Loss_and_AdaBoost**
   - 摘要: `12_Boosting_and_Additive_Trees/12.4_Exponential_Loss_and_AdaBoost/12.4_Exponential_Loss_and_AdaBoost.md`
   - 代码: `12_Boosting_and_Additive_Trees/12.4_Exponential_Loss_and_AdaBoost/12.4_Exponential_Loss_and_AdaBoost.py`
   - 笔记: `12_Boosting_and_Additive_Trees/12.4_Exponential_Loss_and_AdaBoost/12.4_Exponential_Loss_and_AdaBoost.ipynb`
-- ⏳ TODO **12.5_Why_Exponential_Loss?**
+- ✅ 摘要 **12.5_Why_Exponential_Loss?**
   - 摘要: `12_Boosting_and_Additive_Trees/12.5_Why_Exponential_Loss?/12.5_Why_Exponential_Loss?.md`
   - 代码: `12_Boosting_and_Additive_Trees/12.5_Why_Exponential_Loss?/12.5_Why_Exponential_Loss?.py`
-- ⏳ TODO **12.6_Loss_Functions_and_Robustness**
+- ✅ 摘要 **12.6_Loss_Functions_and_Robustness**
   - 摘要: `12_Boosting_and_Additive_Trees/12.6_Loss_Functions_and_Robustness/12.6_Loss_Functions_and_Robustness.md`
   - 代码: `12_Boosting_and_Additive_Trees/12.6_Loss_Functions_and_Robustness/12.6_Loss_Functions_and_Robustness.py`
-- ⏳ TODO **12.7_Off-the-Shelf_Procedures_for_Data_Mining**
+- ✅ 摘要 **12.7_Off-the-Shelf_Procedures_for_Data_Mining**
   - 摘要: `12_Boosting_and_Additive_Trees/12.7_Off_the_Shelf_Procedures_for_Data_Mining/12.7_Off_the_Shelf_Procedures_for_Data_Mining.md`
   - 代码: `12_Boosting_and_Additive_Trees/12.7_Off_the_Shelf_Procedures_for_Data_Mining/12.7_Off_the_Shelf_Procedures_for_Data_Mining.py`
-- ⏳ TODO **12.8_Example:_Spam_Data**
+- ✅ 摘要 **12.8_Example:_Spam_Data**
   - 摘要: `12_Boosting_and_Additive_Trees/12.8_Example:_Spam_Data/12.8_Example:_Spam_Data.md`
   - 代码: `12_Boosting_and_Additive_Trees/12.8_Example:_Spam_Data/12.8_Example:_Spam_Data.py`
-- ⏳ TODO **12.9_Boosting_Trees**
+- ✅ 摘要 **12.9_Boosting_Trees**
   - 摘要: `12_Boosting_and_Additive_Trees/12.9_Boosting_Trees/12.9_Boosting_Trees.md`
   - 代码: `12_Boosting_and_Additive_Trees/12.9_Boosting_Trees/12.9_Boosting_Trees.py`
 - 🔬 笔记 **12.10_Numerical_Optimization_via_Gradient_Boosting**
   - 摘要: `12_Boosting_and_Additive_Trees/12.10_Numerical_Optimization_via_Gradient_Boosting/12.10_Numerical_Optimization_via_Gradient_Boosting.md`
   - 代码: `12_Boosting_and_Additive_Trees/12.10_Numerical_Optimization_via_Gradient_Boosting/12.10_Numerical_Optimization_via_Gradient_Boosting.py`
   - 笔记: `12_Boosting_and_Additive_Trees/12.10_Numerical_Optimization_via_Gradient_Boosting/12.10_Numerical_Optimization_via_Gradient_Boosting.ipynb`
-- ⏳ TODO **12.11_Right-Sized_Trees_for_Boosting**
+- ✅ 摘要 **12.11_Right-Sized_Trees_for_Boosting**
   - 摘要: `12_Boosting_and_Additive_Trees/12.11_Right_Sized_Trees_for_Boosting/12.11_Right_Sized_Trees_for_Boosting.md`
   - 代码: `12_Boosting_and_Additive_Trees/12.11_Right_Sized_Trees_for_Boosting/12.11_Right_Sized_Trees_for_Boosting.py`
-- ⏳ TODO **12.12_Regularization**
+- ✅ 摘要 **12.12_Regularization**
   - 摘要: `12_Boosting_and_Additive_Trees/12.12_Regularization/12.12_Regularization.md`
   - 代码: `12_Boosting_and_Additive_Trees/12.12_Regularization/12.12_Regularization.py`
-- ⏳ TODO **12.13_Interpretation**
+- ✅ 摘要 **12.13_Interpretation**
   - 摘要: `12_Boosting_and_Additive_Trees/12.13_Interpretation/12.13_Interpretation.md`
   - 代码: `12_Boosting_and_Additive_Trees/12.13_Interpretation/12.13_Interpretation.py`
-- ⏳ TODO **12.14_Illustrations**
+- ✅ 摘要 **12.14_Illustrations**
   - 摘要: `12_Boosting_and_Additive_Trees/12.14_Illustrations/12.14_Illustrations.md`
   - 代码: `12_Boosting_and_Additive_Trees/12.14_Illustrations/12.14_Illustrations.py`
-- ⏳ TODO **12.15_Bibliographic_Notes**
+- ✅ 摘要 **12.15_Bibliographic_Notes**
   - 摘要: `12_Boosting_and_Additive_Trees/12.15_Bibliographic_Notes/12.15_Bibliographic_Notes.md`
   - 代码: `12_Boosting_and_Additive_Trees/12.15_Bibliographic_Notes/12.15_Bibliographic_Notes.py`
-- ⏳ TODO **12.16_Exercises**
+- ✅ 摘要 **12.16_Exercises**
   - 摘要: `12_Boosting_and_Additive_Trees/12.16_Exercises/12.16_Exercises.md`
   - 代码: `12_Boosting_and_Additive_Trees/12.16_Exercises/12.16_Exercises.py`
 
