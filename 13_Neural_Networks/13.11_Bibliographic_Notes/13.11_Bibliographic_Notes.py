@@ -1,14 +1,16 @@
 # 13.11_Bibliographic_Notes
-"""
-Lecture: 13_Neural_Networks/13.11_Bibliographic_Notes
-Content: 13.11_Bibliographic_Notes
-"""
-import numpy as np
-import matplotlib.pyplot as plt
+"""第13章文献指引。"""
+REFS = [
+    "Rumelhart, Hinton & Williams (1986): 反向传播",
+    "Rosenblatt (1958): 感知机",
+    "Cybenko (1989): 通用逼近",
+    "LeCun et al. (1998): 手写识别",
+]
 
 
 def main() -> None:
-    print("示例占位:13.11_Bibliographic_Notes")
+    for r in REFS:
+        print("-", r)
 
 
 if __name__ == "__main__":
