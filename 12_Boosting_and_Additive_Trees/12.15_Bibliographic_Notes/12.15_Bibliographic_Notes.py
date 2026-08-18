@@ -1,14 +1,16 @@
 # 12.15_Bibliographic_Notes
-"""
-Lecture: 12_Boosting_and_Additive_Trees/12.15_Bibliographic_Notes
-Content: 12.15_Bibliographic_Notes
-"""
-import numpy as np
-import matplotlib.pyplot as plt
+"""第12章文献指引。"""
+REFS = [
+    "Freund & Schapire (1997): AdaBoost",
+    "Breiman (1996): Arcing",
+    "Friedman, Hastie & Tibshirani (2000): additive logistic regression",
+    "Friedman (2001): gradient boosting",
+]
 
 
 def main() -> None:
-    print("示例占位:12.15_Bibliographic_Notes")
+    for r in REFS:
+        print("-", r)
 
 
 if __name__ == "__main__":
