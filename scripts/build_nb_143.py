@@ -1,0 +1,32 @@
+"""构建 14.3 深讲笔记本(SVM 核). 用法: python scripts/build_nb_143.py"""
+import pathlib
+import nbformat as nbf
+
+md = [
+    "# 14.3 支持向量机与核（深讲）",
+    "用核把数据隐式映射到高维, 在特征空间中线性分隔。",
+    "## 1. 核",
+    "$$f(x)=\\beta_0+\\sum_{\\mathcal{S}}\\alpha_i K(x,x_i)$$",
+    "## 2. RBF",
+    "比较 RBF 与线性核的边界。",
+]
+code = [
+    "import numpy as np\nfrom sklearn.svm import SVC\nfrom sklearn.datasets import make_moons\n"
+    "X,y=make_moons(n_samples=250,noise=0.12,random_state=0)\n"
+    "svc=SVC(kernel='rbf',gamma=2).fit(X,y)\nprint('RBF 训练准确率', round(svc.score(X,y),3))",
+    "import matplotlib\nmatplotlib.use('Agg')\nimport matplotlib.pyplot as plt\nplt.rcParams['font.sans-serif']=['SimHei']\n"
+    "fig,ax=plt.subplots(1,2,figsize=(10,4))\n"
+    "gx,gy=np.meshgrid(np.linspace(X[:,0].min()-.2,X[:,0].max()+.2,250),np.linspace(X[:,1].min()-.2,X[:,1].max()+.2,250))\n"
+    "for axx,kern in zip(ax,['linear','rbf']):\n"
+    "    m=SVC(kernel=kern).fit(X,y)\n"
+    "    z=m.predict(np.c_[gx.ravel(),gy.ravel()]).reshape(gx.shape)\n"
+    "    axx.contourf(gx,gy,z,alpha=0.3,cmap='bwr')\n"
+    "    axx.scatter(X[:,0],X[:,1],c=y,cmap='bwr',s=8)\n"
+    "    axx.set_title(kern)\nplt.show()",
+]
+nb = nbf.v4.new_notebook()
+nb.cells = [nbf.v4.new_markdown_cell(c) for c in md] + [nbf.v4.new_code_cell(c) for c in code]
+out = pathlib.Path("14_Support_Vector_Machines_and_Flexible_Discriminants/14.3_Support_Vector_Machines_and_Kernels/14.3_Support_Vector_Machines_and_Kernels.ipynb")
+out.parent.mkdir(parents=True, exist_ok=True)
+nbf.write(nb, out)
+print("written", out)
