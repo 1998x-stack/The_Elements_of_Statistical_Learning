@@ -461,42 +461,42 @@
   - 代码: `15_Prototype_Methods_and_Nearest_Neighbors/15.7_Exercises/15.7_Exercises.py`
 
 ### 16_Unsupervised_Learning
-- ⏳ TODO **16.1_Introduction**
+- ✅ 摘要 **16.1_Introduction**
   - 摘要: `16_Unsupervised_Learning/16.1_Introduction/16.1_Introduction.md`
   - 代码: `16_Unsupervised_Learning/16.1_Introduction/16.1_Introduction.py`
-- ⏳ TODO **16.2_Association_Rules**
+- ✅ 摘要 **16.2_Association_Rules**
   - 摘要: `16_Unsupervised_Learning/16.2_Association_Rules/16.2_Association_Rules.md`
   - 代码: `16_Unsupervised_Learning/16.2_Association_Rules/16.2_Association_Rules.py`
 - 🔬 笔记 **16.3_Cluster_Analysis**
   - 摘要: `16_Unsupervised_Learning/16.3_Cluster_Analysis/16.3_Cluster_Analysis.md`
   - 代码: `16_Unsupervised_Learning/16.3_Cluster_Analysis/16.3_Cluster_Analysis.py`
   - 笔记: `16_Unsupervised_Learning/16.3_Cluster_Analysis/16.3_Cluster_Analysis.ipynb`
-- ⏳ TODO **16.4_Self-Organizing_Maps**
+- ✅ 摘要 **16.4_Self-Organizing_Maps**
   - 摘要: `16_Unsupervised_Learning/16.4_Self_Organizing_Maps/16.4_Self_Organizing_Maps.md`
   - 代码: `16_Unsupervised_Learning/16.4_Self_Organizing_Maps/16.4_Self_Organizing_Maps.py`
 - 🔬 笔记 **16.5_Principal_Components,_Curves_and_Surfaces**
   - 摘要: `16_Unsupervised_Learning/16.5_Principal_Components,_Curves_and_Surfaces/16.5_Principal_Components,_Curves_and_Surfaces.md`
   - 代码: `16_Unsupervised_Learning/16.5_Principal_Components,_Curves_and_Surfaces/16.5_Principal_Components,_Curves_and_Surfaces.py`
   - 笔记: `16_Unsupervised_Learning/16.5_Principal_Components,_Curves_and_Surfaces/16.5_Principal_Components,_Curves_and_Surfaces.ipynb`
-- ⏳ TODO **16.6_Non-negative_Matrix_Factorization**
+- ✅ 摘要 **16.6_Non-negative_Matrix_Factorization**
   - 摘要: `16_Unsupervised_Learning/16.6_Non_negative_Matrix_Factorization/16.6_Non_negative_Matrix_Factorization.md`
   - 代码: `16_Unsupervised_Learning/16.6_Non_negative_Matrix_Factorization/16.6_Non_negative_Matrix_Factorization.py`
-- ⏳ TODO **16.7_Independent_Component_Analysis_and_Exploratory_Projection_Pursuit**
+- ✅ 摘要 **16.7_Independent_Component_Analysis_and_Exploratory_Projection_Pursuit**
   - 摘要: `16_Unsupervised_Learning/16.7_Independent_Component_Analysis_and_Exploratory_Projection_Pursuit/16.7_Independent_Component_Analysis_and_Exploratory_Projection_Pursuit.md`
   - 代码: `16_Unsupervised_Learning/16.7_Independent_Component_Analysis_and_Exploratory_Projection_Pursuit/16.7_Independent_Component_Analysis_and_Exploratory_Projection_Pursuit.py`
-- ⏳ TODO **16.8_Multidimensional_Scaling**
+- ✅ 摘要 **16.8_Multidimensional_Scaling**
   - 摘要: `16_Unsupervised_Learning/16.8_Multidimensional_Scaling/16.8_Multidimensional_Scaling.md`
   - 代码: `16_Unsupervised_Learning/16.8_Multidimensional_Scaling/16.8_Multidimensional_Scaling.py`
-- ⏳ TODO **16.9_Nonlinear_Dimension_Reduction_and_Local_Multidimensional_Scaling**
+- ✅ 摘要 **16.9_Nonlinear_Dimension_Reduction_and_Local_Multidimensional_Scaling**
   - 摘要: `16_Unsupervised_Learning/16.9_Nonlinear_Dimension_Reduction_and_Local_Multidimensional_Scaling/16.9_Nonlinear_Dimension_Reduction_and_Local_Multidimensional_Scaling.md`
   - 代码: `16_Unsupervised_Learning/16.9_Nonlinear_Dimension_Reduction_and_Local_Multidimensional_Scaling/16.9_Nonlinear_Dimension_Reduction_and_Local_Multidimensional_Scaling.py`
-- ⏳ TODO **16.10_The_Google_PageRank_Algorithm**
+- ✅ 摘要 **16.10_The_Google_PageRank_Algorithm**
   - 摘要: `16_Unsupervised_Learning/16.10_The_Google_PageRank_Algorithm/16.10_The_Google_PageRank_Algorithm.md`
   - 代码: `16_Unsupervised_Learning/16.10_The_Google_PageRank_Algorithm/16.10_The_Google_PageRank_Algorithm.py`
-- ⏳ TODO **16.11_Bibliographic_Notes**
+- ✅ 摘要 **16.11_Bibliographic_Notes**
   - 摘要: `16_Unsupervised_Learning/16.11_Bibliographic_Notes/16.11_Bibliographic_Notes.md`
   - 代码: `16_Unsupervised_Learning/16.11_Bibliographic_Notes/16.11_Bibliographic_Notes.py`
-- ⏳ TODO **16.12_Exercises**
+- ✅ 摘要 **16.12_Exercises**
   - 摘要: `16_Unsupervised_Learning/16.12_Exercises/16.12_Exercises.md`
   - 代码: `16_Unsupervised_Learning/16.12_Exercises/16.12_Exercises.py`
 
