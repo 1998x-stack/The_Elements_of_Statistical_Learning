@@ -1,14 +1,17 @@
 # 16.1_Introduction
-"""
-Lecture: 16_Unsupervised_Learning/16.1_Introduction
-Content: 16.1_Introduction
-"""
-import numpy as np
-import matplotlib.pyplot as plt
+"""第16章概述: 无监督学习。"""
+ROADMAP = [
+    ("16.2", "关联规则"),
+    ("16.3-16.4", "聚类与自组织映射"),
+    ("16.5-16.9", "降维: PCA/NMF/ICA/MDS/流形"),
+    ("16.10", "PageRank"),
+]
 
 
 def main() -> None:
-    print("示例占位:16.1_Introduction")
+    print("第16章: Unsupervised Learning")
+    for k, t in ROADMAP:
+        print(f"  {k}: {t}")
 
 
 if __name__ == "__main__":
