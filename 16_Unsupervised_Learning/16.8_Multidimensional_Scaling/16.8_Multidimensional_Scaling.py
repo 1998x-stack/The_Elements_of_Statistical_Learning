@@ -1,14 +1,20 @@
 # 16.8_Multidimensional_Scaling
-"""
-Lecture: 16_Unsupervised_Learning/16.8_Multidimensional_Scaling
-Content: 16.8_Multidimensional_Scaling
-"""
+"""多维尺度(MDS): 从距离阵嵌入到低维。"""
+import warnings
 import numpy as np
-import matplotlib.pyplot as plt
+from sklearn.datasets import load_iris
+from sklearn.manifold import MDS
+from sklearn.metrics import pairwise_distances
+warnings.filterwarnings("ignore", category=RuntimeWarning)
 
 
 def main() -> None:
-    print("示例占位:16.8_Multidimensional_Scaling")
+    X = load_iris().data
+    D = pairwise_distances(X)
+    mds = MDS(n_components=2, dissimilarity="precomputed", random_state=0).fit(D)
+    print("MDS 嵌入形状:", mds.embedding_.shape)
+    print("应力(stress):", round(mds.stress_, 2))
+    print("MDS 保留样本间距离的结构。")
 
 
 if __name__ == "__main__":
