@@ -26,9 +26,18 @@ def main() -> int:
     files = sorted(iter_py_files(REPO_ROOT))
     fails = 0
     for p in files:
-        result = subprocess.run(
-            [sys.executable, str(p)], capture_output=True, text=True, timeout=120
-        )
+        try:
+            result = subprocess.run(
+                [sys.executable, str(p)], capture_output=True, text=True, timeout=120
+            )
+        except subprocess.TimeoutExpired:
+            fails += 1
+            print(f"FAIL {p.relative_to(REPO_ROOT)}\nTimed out after 120 seconds")
+            continue
+        except OSError as exc:
+            fails += 1
+            print(f"FAIL {p.relative_to(REPO_ROOT)}\nCould not start: {exc}")
+            continue
         if result.returncode != 0:
             fails += 1
             print(f"FAIL {p.relative_to(REPO_ROOT)}\n{result.stderr[-1500:]}")
