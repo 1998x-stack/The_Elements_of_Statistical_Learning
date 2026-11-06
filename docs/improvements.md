@@ -12,5 +12,5 @@
 - Security & regression review: No credentials, permissions, workflow, deployment or license files changed. Catches only known subprocess execution errors; other unexpected exceptions still surface.
 - Risk & rollback: Low; per-demo failures are now reported instead of aborting early. Revert the PR commit(s) if behavior differs in a full checkout.
 - Follow-up: Run the full chapter smoke suite in a disposable checkout and verify README progress and script counts.
-- Commit: pending (branch content commits recorded in GitHub)
-- PR: pending
+- Commit: 27d0cfd346cf8e0c88260e791f4c357ae721d68a (source fix), edd393ddcd25c41d4890380ad2d0e88c15505a12 (tests), b8c2cd8471677e49e1740e9809bfd763fdeb0e53 (history initialization)
+- PR: https://github.com/1998x-stack/The_Elements_of_Statistical_Learning/pull/1
